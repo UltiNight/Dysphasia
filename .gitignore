@@ -19,3 +19,6 @@ reports/*.draft.md
 reconstruction/pass01/findings.draft.md
 reconstruction/pass02/findings.draft.md
 reconstruction/pass07/findings.draft.md
+
+# local-only session notes, never published
+SESSION-LOG.local.md
