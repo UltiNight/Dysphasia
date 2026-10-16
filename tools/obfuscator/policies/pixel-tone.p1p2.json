@@ -1,0 +1,9 @@
+{
+  "policyVersion": 1,
+  "seed": 20261014,
+  "passes": ["rename", "string-encode"],
+  "excludeTypes": [],
+  "excludeMembers": [],
+  "excludeReasons": {},
+  "excludeStrings": []
+}

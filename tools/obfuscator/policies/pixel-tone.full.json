@@ -1,0 +1,9 @@
+{
+  "policyVersion": 1,
+  "seed": 20261014,
+  "passes": ["rename", "exception-routing", "deceptive-naming", "homoglyph-identifiers", "function-outlining", "function-inlining", "split-variables", "control-flow", "opaque-predicates", "mhop-predicates", "integrity-check", "anti-debugging", "string-encode", "string-splitting", "hide-bcl-calls", "mba-constants", "garbage-data", "token-bloating"],
+  "excludeTypes": [],
+  "excludeMembers": [],
+  "excludeReasons": {},
+  "excludeStrings": []
+}

@@ -1,0 +1,59 @@
+name: Verify
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  dotnet-track:
+    name: .NET track — build, protect, verify
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '10.0.x'
+
+      - name: Build the unprotected baseline
+        shell: pwsh
+        run: powershell -NoProfile -ExecutionPolicy Bypass -File scripts/build-fixture.ps1
+
+      - name: Build dysob (the obfuscator CLI)
+        shell: pwsh
+        working-directory: tools/obfuscator
+        run: dotnet build -c Release
+
+      - name: Apply the full 18-pass policy
+        shell: pwsh
+        working-directory: tools/obfuscator
+        run: |
+          dotnet bin\Release\net10.0\dysob.dll protect ..\..\artifacts\baseline\PixelTone.exe `
+            --policy policies\pixel-tone.full.json --out ..\..\artifacts\protected-ci
+
+      - name: Verify behavior against the 335-case corpus
+        shell: pwsh
+        working-directory: tools/obfuscator
+        run: |
+          dotnet bin\Release\net10.0\dysob.dll verify ..\..\artifacts\baseline\PixelTone.exe ..\..\artifacts\protected-ci\PixelTone.exe `
+            --corpus ..\..\logs\evaluation01\corpus.json --out ..\..\logs\verify-ci
+
+      - name: Fail if any corpus case regressed
+        shell: pwsh
+        run: |
+          $summary = Get-Content logs/verify-ci/summary.json | ConvertFrom-Json
+          Write-Host "Passed $($summary.passed) / $($summary.total)"
+          if ($summary.passed -ne $summary.total) {
+            throw "Behavioral corpus regression: $($summary.passed)/$($summary.total) passed"
+          }
+
+      - name: Install and run ilverify
+        shell: pwsh
+        continue-on-error: true
+        run: |
+          dotnet tool install -g dotnet-ilverify
+          $fx = "$env:WINDIR\Microsoft.NET\Framework64\v4.0.30319"
+          dotnet ilverify artifacts\protected-ci\PixelTone.exe -r "$fx\mscorlib.dll" -r "$fx\System.dll"

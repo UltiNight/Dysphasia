@@ -1,0 +1,307 @@
+SUPPLEMENTARY DERIVED CIL: not REA output
+REA evidence: ev_6a49f948b9d22f08595da7adb3ef28ec49957efedc7cfd9fc81814381d61875e
+Artifact SHA-256: b479f51478e8041f43a91a3a883238bef01a5c7d8917c65dfd3088ecb5a29c95
+0x06000001 ClampByte
+CIL SHA-256: 7d1434207f3a28bfa5dbc7496630135a0533994cb63d2e5db817667f611a1c45; file offset: 593
+0000 ldarg.0 
+0001 ldc.i4.0 
+0002 blt.s 20
+0004 ldarg.0 
+0005 ldc.i4 255
+000a bgt.s 14
+000c ldarg.0 
+000d ret 
+000e ldc.i4 255
+0013 ret 
+0014 ldc.i4.0 
+0015 ret 
+0x06000002 AdjustChannel
+CIL SHA-256: 326fa735dbb5ba785daeb77d2e36d9b9b008cd5b7bb39993fc666147b5b1e4e2; file offset: 616
+0000 ldarg.0 
+0001 ldc.i4 128
+0006 sub 
+0007 ldarg.2 
+0008 mul 
+0009 ldc.i4.s 100
+000b div 
+000c ldc.i4 128
+0011 add 
+0012 ldarg.1 
+0013 add 
+0014 call 0x06000001
+0019 ret 
+0x06000003 ApplyPreset
+CIL SHA-256: 21e60714ff8d222a5621689c5261276f82b581111396e3e593874ada4c9f145d; file offset: 656
+0000 ldarg.3 
+0001 ldstr 0x70000001
+0006 call 0x0a000004
+000b brfalse.s 60
+000d ldc.i4.s 77
+000f ldarg.0 
+0010 mul 
+0011 ldc.i4 150
+0016 ldarg.1 
+0017 mul 
+0018 add 
+0019 ldc.i4.s 29
+001b ldarg.2 
+001c mul 
+001d add 
+001e ldc.i4 128
+0023 add 
+0024 ldc.i4.8 
+0025 shr 
+0026 stloc.0 
+0027 ldc.i4.3 
+0028 newarr 0x01000007
+002d stloc.1 
+002e ldloc.1 
+002f ldc.i4.0 
+0030 ldloc.0 
+0031 stelem.i4 
+0032 ldloc.1 
+0033 ldc.i4.1 
+0034 ldloc.0 
+0035 stelem.i4 
+0036 ldloc.1 
+0037 ldc.i4.2 
+0038 ldloc.0 
+0039 stelem.i4 
+003a ldloc.1 
+003b ret 
+003c ldarg.3 
+003d ldstr 0x7000000b
+0042 call 0x0a000004
+0047 brfalse.s 117
+0049 ldc.i4.3 
+004a newarr 0x01000007
+004f stloc.2 
+0050 ldloc.2 
+0051 ldc.i4.0 
+0052 ldarg.0 
+0053 ldc.i4.s 12
+0055 add 
+0056 call 0x06000001
+005b stelem.i4 
+005c ldloc.2 
+005d ldc.i4.1 
+005e ldarg.1 
+005f ldc.i4.3 
+0060 add 
+0061 call 0x06000001
+0066 stelem.i4 
+0067 ldloc.2 
+0068 ldc.i4.2 
+0069 ldarg.2 
+006a ldc.i4.s 9
+006c sub 
+006d call 0x06000001
+0072 stelem.i4 
+0073 ldloc.2 
+0074 ret 
+0075 ldc.i4.3 
+0076 newarr 0x01000007
+007b stloc.3 
+007c ldloc.3 
+007d ldc.i4.0 
+007e ldarg.0 
+007f stelem.i4 
+0080 ldloc.3 
+0081 ldc.i4.1 
+0082 ldarg.1 
+0083 stelem.i4 
+0084 ldloc.3 
+0085 ldc.i4.2 
+0086 ldarg.2 
+0087 stelem.i4 
+0088 ldloc.3 
+0089 ret 
+0x06000004 Fingerprint
+CIL SHA-256: c204090145dbc46813bc8adc22f248c583db6ef5690ab8f3f70932c695601ccd; file offset: 808
+0000 ldc.i4 -2128831035
+0005 stloc.0 
+0006 ldc.i4.0 
+0007 stloc.1 
+0008 br.s 26
+000a ldloc.0 
+000b ldarg.0 
+000c ldloc.1 
+000d ldelem.i4 
+000e xor 
+000f ldc.i4 16777619
+0014 mul 
+0015 stloc.0 
+0016 ldloc.1 
+0017 ldc.i4.1 
+0018 add 
+0019 stloc.1 
+001a ldloc.1 
+001b ldarg.0 
+001c ldlen 
+001d conv.i4 
+001e blt.s 10
+0020 ldloc.0 
+0021 ret 
+0x06000005 ReadInt
+CIL SHA-256: 99571a0d18f0157278b6314dc753ccd6b6ff52f6737ea479aa01e465638ac52d; file offset: 856
+0000 ldarg.0 
+0001 ldc.i4.7 
+0002 call 0x0a000005
+0007 ldloca.s 0
+0009 call 0x0a000006
+000e brfalse.s 24
+0010 ldloc.0 
+0011 ldarg.1 
+0012 blt.s 24
+0014 ldloc.0 
+0015 ldarg.2 
+0016 ble.s 35
+0018 ldstr 0x70000015
+001d newobj 0x0a000007
+0022 throw 
+0023 ldloc.0 
+0024 ret 
+0x06000006 Main
+CIL SHA-256: 94ee5e7e4851ce372021a05aeb3ec50976e751af5c535c8814eda32bd08666cd; file offset: 908
+0000 ldarg.0 
+0001 ldlen 
+0002 conv.i4 
+0003 ldc.i4.1 
+0004 bne.un.s 43
+0006 ldarg.0 
+0007 ldc.i4.0 
+0008 ldelem.ref 
+0009 ldstr 0x7000003f
+000e call 0x0a000004
+0013 brfalse.s 43
+0015 ldstr 0x7000004d
+001a call 0x0a000008
+001f ldstr 0x700000a3
+0024 call 0x0a000008
+0029 ldc.i4.0 
+002a ret 
+002b ldarg.0 
+002c ldlen 
+002d conv.i4 
+002e ldc.i4.6 
+002f beq.s 60
+0031 ldstr 0x70000148
+0036 newobj 0x0a000007
+003b throw 
+003c ldarg.0 
+003d ldc.i4.0 
+003e ldelem.ref 
+003f ldc.i4.0 
+0040 ldc.i4 255
+0045 call 0x06000005
+004a stloc.0 
+004b ldarg.0 
+004c ldc.i4.1 
+004d ldelem.ref 
+004e ldc.i4.0 
+004f ldc.i4 255
+0054 call 0x06000005
+0059 stloc.1 
+005a ldarg.0 
+005b ldc.i4.2 
+005c ldelem.ref 
+005d ldc.i4.0 
+005e ldc.i4 255
+0063 call 0x06000005
+0068 stloc.2 
+0069 ldarg.0 
+006a ldc.i4.3 
+006b ldelem.ref 
+006c ldc.i4.s -100
+006e ldc.i4.s 100
+0070 call 0x06000005
+0075 stloc.3 
+0076 ldarg.0 
+0077 ldc.i4.4 
+0078 ldelem.ref 
+0079 ldc.i4.0 
+007a ldc.i4 200
+007f call 0x06000005
+0084 stloc.s 4
+0086 ldarg.0 
+0087 ldc.i4.5 
+0088 ldelem.ref 
+0089 stloc.s 5
+008b ldloc.s 5
+008d ldstr 0x7000018a
+0092 call 0x0a000009
+0097 brfalse.s 192
+0099 ldloc.s 5
+009b ldstr 0x70000001
+00a0 call 0x0a000009
+00a5 brfalse.s 192
+00a7 ldloc.s 5
+00a9 ldstr 0x7000000b
+00ae call 0x0a000009
+00b3 brfalse.s 192
+00b5 ldstr 0x7000019a
+00ba newobj 0x0a000007
+00bf throw 
+00c0 ldloc.0 
+00c1 ldloc.3 
+00c2 ldloc.s 4
+00c4 call 0x06000002
+00c9 ldloc.1 
+00ca ldloc.3 
+00cb ldloc.s 4
+00cd call 0x06000002
+00d2 ldloc.2 
+00d3 ldloc.3 
+00d4 ldloc.s 4
+00d6 call 0x06000002
+00db ldloc.s 5
+00dd call 0x06000003
+00e2 stloc.s 6
+00e4 ldstr 0x700001b8
+00e9 ldc.i4.4 
+00ea newarr 0x01000001
+00ef stloc.s 9
+00f1 ldloc.s 9
+00f3 ldc.i4.0 
+00f4 ldloc.s 6
+00f6 ldc.i4.0 
+00f7 ldelem.i4 
+00f8 box 0x01000007
+00fd stelem.ref 
+00fe ldloc.s 9
+0100 ldc.i4.1 
+0101 ldloc.s 6
+0103 ldc.i4.1 
+0104 ldelem.i4 
+0105 box 0x01000007
+010a stelem.ref 
+010b ldloc.s 9
+010d ldc.i4.2 
+010e ldloc.s 6
+0110 ldc.i4.2 
+0111 ldelem.i4 
+0112 box 0x01000007
+0117 stelem.ref 
+0118 ldloc.s 9
+011a ldc.i4.3 
+011b ldloc.s 6
+011d call 0x06000004
+0122 box 0x0100000d
+0127 stelem.ref 
+0128 ldloc.s 9
+012a call 0x0a00000a
+012f ldc.i4.0 
+0130 stloc.s 8
+0132 leave.s 342
+0134 stloc.s 7
+0136 call 0x0a00000b
+013b ldstr 0x700001de
+0140 ldloc.s 7
+0142 callvirt 0x0a00000c
+0147 call 0x0a00000d
+014c callvirt 0x0a00000e
+0151 ldc.i4.2 
+0152 stloc.s 8
+0154 leave.s 342
+0156 ldloc.s 8
+0158 ret 

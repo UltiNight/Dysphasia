@@ -1,0 +1,306 @@
+REA evidence: ev_6a49f948b9d22f08595da7adb3ef28ec49957efedc7cfd9fc81814381d61875e
+SHA256: b479f51478e8041f43a91a3a883238bef01a5c7d8917c65dfd3088ecb5a29c95
+
+0x06000001 ClampByte body_file_offset=592 il_hash_verified=true
+  IL_0000 (  0) ldarg.0      
+  IL_0001 (  1) ldc.i4.0     
+  IL_0002 (  2) blt.s        20
+  IL_0004 (  4) ldarg.0      
+  IL_0005 (  5) ldc.i4       255
+  IL_000a ( 10) bgt.s        14
+  IL_000c ( 12) ldarg.0      
+  IL_000d ( 13) ret          
+  IL_000e ( 14) ldc.i4       255
+  IL_0013 ( 19) ret          
+  IL_0014 ( 20) ldc.i4.0     
+  IL_0015 ( 21) ret          
+
+0x06000002 AdjustChannel body_file_offset=615 il_hash_verified=true
+  IL_0000 (  0) ldarg.0      
+  IL_0001 (  1) ldc.i4       128
+  IL_0006 (  6) sub          
+  IL_0007 (  7) ldarg.2      
+  IL_0008 (  8) mul          
+  IL_0009 (  9) ldc.i4.s     100
+  IL_000b ( 11) div          
+  IL_000c ( 12) ldc.i4       128
+  IL_0011 ( 17) add          
+  IL_0012 ( 18) ldarg.1      
+  IL_0013 ( 19) add          
+  IL_0014 ( 20) call         0x06000001 Dysphasia.Fixture.PixelTone.ClampByte
+  IL_0019 ( 25) ret          
+
+0x06000003 ApplyPreset body_file_offset=644 il_hash_verified=true
+  IL_0000 (  0) ldarg.3      
+  IL_0001 (  1) ldstr        0x70000001 'mono'
+  IL_0006 (  6) call         0x0a000004 System.String.op_Equality
+  IL_000b ( 11) brfalse.s    60
+  IL_000d ( 13) ldc.i4.s     77
+  IL_000f ( 15) ldarg.0      
+  IL_0010 ( 16) mul          
+  IL_0011 ( 17) ldc.i4       150
+  IL_0016 ( 22) ldarg.1      
+  IL_0017 ( 23) mul          
+  IL_0018 ( 24) add          
+  IL_0019 ( 25) ldc.i4.s     29
+  IL_001b ( 27) ldarg.2      
+  IL_001c ( 28) mul          
+  IL_001d ( 29) add          
+  IL_001e ( 30) ldc.i4       128
+  IL_0023 ( 35) add          
+  IL_0024 ( 36) ldc.i4.8     
+  IL_0025 ( 37) shr          
+  IL_0026 ( 38) stloc.0      
+  IL_0027 ( 39) ldc.i4.3     
+  IL_0028 ( 40) newarr       0x01000007 
+  IL_002d ( 45) stloc.1      
+  IL_002e ( 46) ldloc.1      
+  IL_002f ( 47) ldc.i4.0     
+  IL_0030 ( 48) ldloc.0      
+  IL_0031 ( 49) stelem.i4    
+  IL_0032 ( 50) ldloc.1      
+  IL_0033 ( 51) ldc.i4.1     
+  IL_0034 ( 52) ldloc.0      
+  IL_0035 ( 53) stelem.i4    
+  IL_0036 ( 54) ldloc.1      
+  IL_0037 ( 55) ldc.i4.2     
+  IL_0038 ( 56) ldloc.0      
+  IL_0039 ( 57) stelem.i4    
+  IL_003a ( 58) ldloc.1      
+  IL_003b ( 59) ret          
+  IL_003c ( 60) ldarg.3      
+  IL_003d ( 61) ldstr        0x7000000b 'warm'
+  IL_0042 ( 66) call         0x0a000004 System.String.op_Equality
+  IL_0047 ( 71) brfalse.s    117
+  IL_0049 ( 73) ldc.i4.3     
+  IL_004a ( 74) newarr       0x01000007 
+  IL_004f ( 79) stloc.2      
+  IL_0050 ( 80) ldloc.2      
+  IL_0051 ( 81) ldc.i4.0     
+  IL_0052 ( 82) ldarg.0      
+  IL_0053 ( 83) ldc.i4.s     12
+  IL_0055 ( 85) add          
+  IL_0056 ( 86) call         0x06000001 Dysphasia.Fixture.PixelTone.ClampByte
+  IL_005b ( 91) stelem.i4    
+  IL_005c ( 92) ldloc.2      
+  IL_005d ( 93) ldc.i4.1     
+  IL_005e ( 94) ldarg.1      
+  IL_005f ( 95) ldc.i4.3     
+  IL_0060 ( 96) add          
+  IL_0061 ( 97) call         0x06000001 Dysphasia.Fixture.PixelTone.ClampByte
+  IL_0066 (102) stelem.i4    
+  IL_0067 (103) ldloc.2      
+  IL_0068 (104) ldc.i4.2     
+  IL_0069 (105) ldarg.2      
+  IL_006a (106) ldc.i4.s     9
+  IL_006c (108) sub          
+  IL_006d (109) call         0x06000001 Dysphasia.Fixture.PixelTone.ClampByte
+  IL_0072 (114) stelem.i4    
+  IL_0073 (115) ldloc.2      
+  IL_0074 (116) ret          
+  IL_0075 (117) ldc.i4.3     
+  IL_0076 (118) newarr       0x01000007 
+  IL_007b (123) stloc.3      
+  IL_007c (124) ldloc.3      
+  IL_007d (125) ldc.i4.0     
+  IL_007e (126) ldarg.0      
+  IL_007f (127) stelem.i4    
+  IL_0080 (128) ldloc.3      
+  IL_0081 (129) ldc.i4.1     
+  IL_0082 (130) ldarg.1      
+  IL_0083 (131) stelem.i4    
+  IL_0084 (132) ldloc.3      
+  IL_0085 (133) ldc.i4.2     
+  IL_0086 (134) ldarg.2      
+  IL_0087 (135) stelem.i4    
+  IL_0088 (136) ldloc.3      
+  IL_0089 (137) ret          
+
+0x06000004 Fingerprint body_file_offset=796 il_hash_verified=true
+  IL_0000 (  0) ldc.i4       -2128831035
+  IL_0005 (  5) stloc.0      
+  IL_0006 (  6) ldc.i4.0     
+  IL_0007 (  7) stloc.1      
+  IL_0008 (  8) br.s         26
+  IL_000a ( 10) ldloc.0      
+  IL_000b ( 11) ldarg.0      
+  IL_000c ( 12) ldloc.1      
+  IL_000d ( 13) ldelem.i4    
+  IL_000e ( 14) xor          
+  IL_000f ( 15) ldc.i4       16777619
+  IL_0014 ( 20) mul          
+  IL_0015 ( 21) stloc.0      
+  IL_0016 ( 22) ldloc.1      
+  IL_0017 ( 23) ldc.i4.1     
+  IL_0018 ( 24) add          
+  IL_0019 ( 25) stloc.1      
+  IL_001a ( 26) ldloc.1      
+  IL_001b ( 27) ldarg.0      
+  IL_001c ( 28) ldlen        
+  IL_001d ( 29) conv.i4      
+  IL_001e ( 30) blt.s        10
+  IL_0020 ( 32) ldloc.0      
+  IL_0021 ( 33) ret          
+
+0x06000005 ReadInt body_file_offset=844 il_hash_verified=true
+  IL_0000 (  0) ldarg.0      
+  IL_0001 (  1) ldc.i4.7     
+  IL_0002 (  2) call         0x0a000005 System.Globalization.CultureInfo.get_InvariantCulture
+  IL_0007 (  7) ldloca.s     0
+  IL_0009 (  9) call         0x0a000006 System.Int32.TryParse
+  IL_000e ( 14) brfalse.s    24
+  IL_0010 ( 16) ldloc.0      
+  IL_0011 ( 17) ldarg.1      
+  IL_0012 ( 18) blt.s        24
+  IL_0014 ( 20) ldloc.0      
+  IL_0015 ( 21) ldarg.2      
+  IL_0016 ( 22) ble.s        35
+  IL_0018 ( 24) ldstr        0x70000015 'integer out of range'
+  IL_001d ( 29) newobj       0x0a000007 System.ArgumentException..ctor
+  IL_0022 ( 34) throw        
+  IL_0023 ( 35) ldloc.0      
+  IL_0024 ( 36) ret          
+
+0x06000006 Main body_file_offset=896 il_hash_verified=true
+  IL_0000 (  0) ldarg.0      
+  IL_0001 (  1) ldlen        
+  IL_0002 (  2) conv.i4      
+  IL_0003 (  3) ldc.i4.1     
+  IL_0004 (  4) bne.un.s     43
+  IL_0006 (  6) ldarg.0      
+  IL_0007 (  7) ldc.i4.0     
+  IL_0008 (  8) ldelem.ref   
+  IL_0009 (  9) ldstr        0x7000003f '--help'
+  IL_000e ( 14) call         0x0a000004 System.String.op_Equality
+  IL_0013 ( 19) brfalse.s    43
+  IL_0015 ( 21) ldstr        0x7000004d 'PixelTone R G B brightness contrast preset'
+  IL_001a ( 26) call         0x0a000008 System.Console.WriteLine
+  IL_001f ( 31) ldstr        0x700000a3 'R/G/B: 0..255; brightness: -100..100; contrast: 0..200; preset: neutral|mono|warm'
+  IL_0024 ( 36) call         0x0a000008 System.Console.WriteLine
+  IL_0029 ( 41) ldc.i4.0     
+  IL_002a ( 42) ret          
+  IL_002b ( 43) ldarg.0      
+  IL_002c ( 44) ldlen        
+  IL_002d ( 45) conv.i4      
+  IL_002e ( 46) ldc.i4.6     
+  IL_002f ( 47) beq.s        60
+  IL_0031 ( 49) ldstr        0x70000148 'expected 6 arguments; use --help'
+  IL_0036 ( 54) newobj       0x0a000007 System.ArgumentException..ctor
+  IL_003b ( 59) throw        
+  IL_003c ( 60) ldarg.0      
+  IL_003d ( 61) ldc.i4.0     
+  IL_003e ( 62) ldelem.ref   
+  IL_003f ( 63) ldc.i4.0     
+  IL_0040 ( 64) ldc.i4       255
+  IL_0045 ( 69) call         0x06000005 Dysphasia.Fixture.PixelTone.ReadInt
+  IL_004a ( 74) stloc.0      
+  IL_004b ( 75) ldarg.0      
+  IL_004c ( 76) ldc.i4.1     
+  IL_004d ( 77) ldelem.ref   
+  IL_004e ( 78) ldc.i4.0     
+  IL_004f ( 79) ldc.i4       255
+  IL_0054 ( 84) call         0x06000005 Dysphasia.Fixture.PixelTone.ReadInt
+  IL_0059 ( 89) stloc.1      
+  IL_005a ( 90) ldarg.0      
+  IL_005b ( 91) ldc.i4.2     
+  IL_005c ( 92) ldelem.ref   
+  IL_005d ( 93) ldc.i4.0     
+  IL_005e ( 94) ldc.i4       255
+  IL_0063 ( 99) call         0x06000005 Dysphasia.Fixture.PixelTone.ReadInt
+  IL_0068 (104) stloc.2      
+  IL_0069 (105) ldarg.0      
+  IL_006a (106) ldc.i4.3     
+  IL_006b (107) ldelem.ref   
+  IL_006c (108) ldc.i4.s     -100
+  IL_006e (110) ldc.i4.s     100
+  IL_0070 (112) call         0x06000005 Dysphasia.Fixture.PixelTone.ReadInt
+  IL_0075 (117) stloc.3      
+  IL_0076 (118) ldarg.0      
+  IL_0077 (119) ldc.i4.4     
+  IL_0078 (120) ldelem.ref   
+  IL_0079 (121) ldc.i4.0     
+  IL_007a (122) ldc.i4       200
+  IL_007f (127) call         0x06000005 Dysphasia.Fixture.PixelTone.ReadInt
+  IL_0084 (132) stloc.s      4
+  IL_0086 (134) ldarg.0      
+  IL_0087 (135) ldc.i4.5     
+  IL_0088 (136) ldelem.ref   
+  IL_0089 (137) stloc.s      5
+  IL_008b (139) ldloc.s      5
+  IL_008d (141) ldstr        0x7000018a 'neutral'
+  IL_0092 (146) call         0x0a000009 System.String.op_Inequality
+  IL_0097 (151) brfalse.s    192
+  IL_0099 (153) ldloc.s      5
+  IL_009b (155) ldstr        0x70000001 'mono'
+  IL_00a0 (160) call         0x0a000009 System.String.op_Inequality
+  IL_00a5 (165) brfalse.s    192
+  IL_00a7 (167) ldloc.s      5
+  IL_00a9 (169) ldstr        0x7000000b 'warm'
+  IL_00ae (174) call         0x0a000009 System.String.op_Inequality
+  IL_00b3 (179) brfalse.s    192
+  IL_00b5 (181) ldstr        0x7000019a 'unknown preset'
+  IL_00ba (186) newobj       0x0a000007 System.ArgumentException..ctor
+  IL_00bf (191) throw        
+  IL_00c0 (192) ldloc.0      
+  IL_00c1 (193) ldloc.3      
+  IL_00c2 (194) ldloc.s      4
+  IL_00c4 (196) call         0x06000002 Dysphasia.Fixture.PixelTone.AdjustChannel
+  IL_00c9 (201) ldloc.1      
+  IL_00ca (202) ldloc.3      
+  IL_00cb (203) ldloc.s      4
+  IL_00cd (205) call         0x06000002 Dysphasia.Fixture.PixelTone.AdjustChannel
+  IL_00d2 (210) ldloc.2      
+  IL_00d3 (211) ldloc.3      
+  IL_00d4 (212) ldloc.s      4
+  IL_00d6 (214) call         0x06000002 Dysphasia.Fixture.PixelTone.AdjustChannel
+  IL_00db (219) ldloc.s      5
+  IL_00dd (221) call         0x06000003 Dysphasia.Fixture.PixelTone.ApplyPreset
+  IL_00e2 (226) stloc.s      6
+  IL_00e4 (228) ldstr        0x700001b8 '{0},{1},{2}|{3:X8}'
+  IL_00e9 (233) ldc.i4.4     
+  IL_00ea (234) newarr       0x01000001 
+  IL_00ef (239) stloc.s      9
+  IL_00f1 (241) ldloc.s      9
+  IL_00f3 (243) ldc.i4.0     
+  IL_00f4 (244) ldloc.s      6
+  IL_00f6 (246) ldc.i4.0     
+  IL_00f7 (247) ldelem.i4    
+  IL_00f8 (248) box          0x01000007 
+  IL_00fd (253) stelem.ref   
+  IL_00fe (254) ldloc.s      9
+  IL_0100 (256) ldc.i4.1     
+  IL_0101 (257) ldloc.s      6
+  IL_0103 (259) ldc.i4.1     
+  IL_0104 (260) ldelem.i4    
+  IL_0105 (261) box          0x01000007 
+  IL_010a (266) stelem.ref   
+  IL_010b (267) ldloc.s      9
+  IL_010d (269) ldc.i4.2     
+  IL_010e (270) ldloc.s      6
+  IL_0110 (272) ldc.i4.2     
+  IL_0111 (273) ldelem.i4    
+  IL_0112 (274) box          0x01000007 
+  IL_0117 (279) stelem.ref   
+  IL_0118 (280) ldloc.s      9
+  IL_011a (282) ldc.i4.3     
+  IL_011b (283) ldloc.s      6
+  IL_011d (285) call         0x06000004 Dysphasia.Fixture.PixelTone.Fingerprint
+  IL_0122 (290) box          0x0100000d 
+  IL_0127 (295) stelem.ref   
+  IL_0128 (296) ldloc.s      9
+  IL_012a (298) call         0x0a00000a System.Console.WriteLine
+  IL_012f (303) ldc.i4.0     
+  IL_0130 (304) stloc.s      8
+  IL_0132 (306) leave.s      342
+  IL_0134 (308) stloc.s      7
+  IL_0136 (310) call         0x0a00000b System.Console.get_Error
+  IL_013b (315) ldstr        0x700001de 'ERROR: '
+  IL_0140 (320) ldloc.s      7
+  IL_0142 (322) callvirt     0x0a00000c System.Exception.get_Message
+  IL_0147 (327) call         0x0a00000d System.String.Concat
+  IL_014c (332) callvirt     0x0a00000e System.IO.TextWriter.WriteLine
+  IL_0151 (337) ldc.i4.2     
+  IL_0152 (338) stloc.s      8
+  IL_0154 (340) leave.s      342
+  IL_0156 (342) ldloc.s      8
+  IL_0158 (344) ret          

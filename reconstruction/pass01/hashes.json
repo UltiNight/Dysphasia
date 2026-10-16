@@ -1,0 +1,16 @@
+{
+  "timestamp_utc": "2026-10-14T05:45:01.476048+00:00",
+  "hash_algorithm": "sha256",
+  "files": {
+    "artifacts/baseline/PixelTone.exe": "b479f51478e8041f43a91a3a883238bef01a5c7d8917c65dfd3088ecb5a29c95",
+    "logs/pass01/01-artifact.stdout.json": "f865ae91cb357d2eebf091cc82604f8d81d5d346dd8abb2d9d5fb16ae9d829d5",
+    "logs/pass01/02-members.stdout.json": "518daba636a1185dc990f2a693d7c8f8f9d67f01525ea91bc50df0c9df92b744",
+    "reconstruction/pass01/extract_cil.py": "3ef923e5755f987204b14d4ecd1a2b920b61a450264396b4156dbee29258d5eb",
+    "reconstruction/pass01/cil.txt": "c2bd061fbb845e517c004097c39c7b82db5cc581a8f27b37e4c6e42827e04bff",
+    "reconstruction/pass01/pixel_tone.py": "43d0a6b7c128b3031cf8487f1a5f92a8553300f7c505a6c517e68e79aa11d57c",
+    "reconstruction/pass01/probe_compare.py": "d39b1a745ed25e287d08ad902f3975b6180f691c05c4e30a52f83fb6edd3b848",
+    "reconstruction/pass01/probe_results.json": "da2ce2677ff9abe23e7b0eb6b0582589ab40323b3a631f06b48887d8dea39b93",
+    "reconstruction/pass01/findings.md": "75c417c43f6bb777894410720fba75346cf3263209a554a0fbe6c41c0dba0e03",
+    "reconstruction/pass01/actions.jsonl": "4594d06ac2753cc690c5318e18b195fca22dbbf858838a0dbe303c03f6897386"
+  }
+}

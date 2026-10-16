@@ -1,0 +1,206 @@
+[
+  {
+    "probe_id": "P01",
+    "name": "help",
+    "argv": [
+      "--help"
+    ],
+    "target": {
+      "exit_code": 0,
+      "stdout": "PixelTone R G B brightness contrast preset\r\nR/G/B: 0..255; brightness: -100..100; contrast: 0..200; preset: neutral|mono|warm\r\n",
+      "stderr": "",
+      "stdout_hex": "506978656c546f6e65205220472042206272696768746e65737320636f6e7472617374207072657365740d0a522f472f423a20302e2e3235353b206272696768746e6573733a202d3130302e2e3130303b20636f6e74726173743a20302e2e3230303b207072657365743a206e65757472616c7c6d6f6e6f7c7761726d0d0a",
+      "stderr_hex": ""
+    },
+    "clone": {
+      "exit_code": 0,
+      "stdout": "PixelTone R G B brightness contrast preset\r\nR/G/B: 0..255; brightness: -100..100; contrast: 0..200; preset: neutral|mono|warm\r\n",
+      "stderr": "",
+      "stdout_hex": "506978656c546f6e65205220472042206272696768746e65737320636f6e7472617374207072657365740d0a522f472f423a20302e2e3235353b206272696768746e6573733a202d3130302e2e3130303b20636f6e74726173743a20302e2e3230303b207072657365743a206e65757472616c7c6d6f6e6f7c7761726d0d0a",
+      "stderr_hex": ""
+    },
+    "match": true
+  },
+  {
+    "probe_id": "P02",
+    "name": "arity",
+    "argv": [],
+    "target": {
+      "exit_code": 2,
+      "stdout": "",
+      "stderr": "ERROR: expected 6 arguments; use --help\r\n",
+      "stdout_hex": "",
+      "stderr_hex": "4552524f523a206578706563746564203620617267756d656e74733b20757365202d2d68656c700d0a"
+    },
+    "clone": {
+      "exit_code": 2,
+      "stdout": "",
+      "stderr": "ERROR: expected 6 arguments; use --help\r\n",
+      "stdout_hex": "",
+      "stderr_hex": "4552524f523a206578706563746564203620617267756d656e74733b20757365202d2d68656c700d0a"
+    },
+    "match": true
+  },
+  {
+    "probe_id": "P03",
+    "name": "neutral_negative_truncation",
+    "argv": [
+      "1",
+      "127",
+      "129",
+      "0",
+      "33",
+      "neutral"
+    ],
+    "target": {
+      "exit_code": 0,
+      "stdout": "87,128,128|417ED4C6\r\n",
+      "stderr": "",
+      "stdout_hex": "38372c3132382c3132387c34313745443443360d0a",
+      "stderr_hex": ""
+    },
+    "clone": {
+      "exit_code": 0,
+      "stdout": "87,128,128|417ED4C6\r\n",
+      "stderr": "",
+      "stdout_hex": "38372c3132382c3132387c34313745443443360d0a",
+      "stderr_hex": ""
+    },
+    "match": true
+  },
+  {
+    "probe_id": "P04",
+    "name": "mono_weighting",
+    "argv": [
+      "13",
+      "187",
+      "244",
+      "-17",
+      "143",
+      "mono"
+    ],
+    "target": {
+      "exit_code": 0,
+      "stdout": "143,143,143|ADF6A784\r\n",
+      "stderr": "",
+      "stdout_hex": "3134332c3134332c3134337c41444636413738340d0a",
+      "stderr_hex": ""
+    },
+    "clone": {
+      "exit_code": 0,
+      "stdout": "143,143,143|ADF6A784\r\n",
+      "stderr": "",
+      "stdout_hex": "3134332c3134332c3134337c41444636413738340d0a",
+      "stderr_hex": ""
+    },
+    "match": true
+  },
+  {
+    "probe_id": "P05",
+    "name": "warm_clipping",
+    "argv": [
+      "250",
+      "255",
+      "0",
+      "0",
+      "100",
+      "warm"
+    ],
+    "target": {
+      "exit_code": 0,
+      "stdout": "255,255,0|D662F499\r\n",
+      "stderr": "",
+      "stdout_hex": "3235352c3235352c307c44363632463439390d0a",
+      "stderr_hex": ""
+    },
+    "clone": {
+      "exit_code": 0,
+      "stdout": "255,255,0|D662F499\r\n",
+      "stderr": "",
+      "stdout_hex": "3235352c3235352c307c44363632463439390d0a",
+      "stderr_hex": ""
+    },
+    "match": true
+  },
+  {
+    "probe_id": "P06",
+    "name": "numeric_error_precedes_preset",
+    "argv": [
+      "256",
+      "0",
+      "0",
+      "0",
+      "100",
+      "bogus"
+    ],
+    "target": {
+      "exit_code": 2,
+      "stdout": "",
+      "stderr": "ERROR: integer out of range\r\n",
+      "stdout_hex": "",
+      "stderr_hex": "4552524f523a20696e7465676572206f7574206f662072616e67650d0a"
+    },
+    "clone": {
+      "exit_code": 2,
+      "stdout": "",
+      "stderr": "ERROR: integer out of range\r\n",
+      "stdout_hex": "",
+      "stderr_hex": "4552524f523a20696e7465676572206f7574206f662072616e67650d0a"
+    },
+    "match": true
+  },
+  {
+    "probe_id": "P07",
+    "name": "case_sensitive_preset",
+    "argv": [
+      "1",
+      "2",
+      "3",
+      "0",
+      "100",
+      "Warm"
+    ],
+    "target": {
+      "exit_code": 2,
+      "stdout": "",
+      "stderr": "ERROR: unknown preset\r\n",
+      "stdout_hex": "",
+      "stderr_hex": "4552524f523a20756e6b6e6f776e207072657365740d0a"
+    },
+    "clone": {
+      "exit_code": 2,
+      "stdout": "",
+      "stderr": "ERROR: unknown preset\r\n",
+      "stdout_hex": "",
+      "stderr_hex": "4552524f523a20756e6b6e6f776e207072657365740d0a"
+    },
+    "match": true
+  },
+  {
+    "probe_id": "P08",
+    "name": "integer_sign_and_whitespace",
+    "argv": [
+      " \t+0013\r\n",
+      " -0 ",
+      "+00255",
+      " +0 ",
+      "0100",
+      "neutral"
+    ],
+    "target": {
+      "exit_code": 0,
+      "stdout": "13,0,255|F66689D5\r\n",
+      "stderr": "",
+      "stdout_hex": "31332c302c3235357c46363636383944350d0a",
+      "stderr_hex": ""
+    },
+    "clone": {
+      "exit_code": 0,
+      "stdout": "13,0,255|F66689D5\r\n",
+      "stderr": "",
+      "stdout_hex": "31332c302c3235357c46363636383944350d0a",
+      "stderr_hex": ""
+    },
+    "match": true
+  }
+]

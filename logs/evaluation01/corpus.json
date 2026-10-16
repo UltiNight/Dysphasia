@@ -1,0 +1,4001 @@
+[
+  {
+    "id": 1,
+    "kind": "valid-boundary",
+    "args": [
+      "0",
+      "0",
+      "0",
+      "-100",
+      "0",
+      "neutral"
+    ]
+  },
+  {
+    "id": 2,
+    "kind": "valid-boundary",
+    "args": [
+      "0",
+      "0",
+      "0",
+      "-100",
+      "0",
+      "mono"
+    ]
+  },
+  {
+    "id": 3,
+    "kind": "valid-boundary",
+    "args": [
+      "0",
+      "0",
+      "0",
+      "-100",
+      "0",
+      "warm"
+    ]
+  },
+  {
+    "id": 4,
+    "kind": "valid-boundary",
+    "args": [
+      "0",
+      "0",
+      "0",
+      "-100",
+      "99",
+      "neutral"
+    ]
+  },
+  {
+    "id": 5,
+    "kind": "valid-boundary",
+    "args": [
+      "0",
+      "0",
+      "0",
+      "-100",
+      "99",
+      "mono"
+    ]
+  },
+  {
+    "id": 6,
+    "kind": "valid-boundary",
+    "args": [
+      "0",
+      "0",
+      "0",
+      "-100",
+      "99",
+      "warm"
+    ]
+  },
+  {
+    "id": 7,
+    "kind": "valid-boundary",
+    "args": [
+      "0",
+      "0",
+      "0",
+      "-100",
+      "100",
+      "neutral"
+    ]
+  },
+  {
+    "id": 8,
+    "kind": "valid-boundary",
+    "args": [
+      "0",
+      "0",
+      "0",
+      "-100",
+      "100",
+      "mono"
+    ]
+  },
+  {
+    "id": 9,
+    "kind": "valid-boundary",
+    "args": [
+      "0",
+      "0",
+      "0",
+      "-100",
+      "100",
+      "warm"
+    ]
+  },
+  {
+    "id": 10,
+    "kind": "valid-boundary",
+    "args": [
+      "0",
+      "0",
+      "0",
+      "-100",
+      "200",
+      "neutral"
+    ]
+  },
+  {
+    "id": 11,
+    "kind": "valid-boundary",
+    "args": [
+      "0",
+      "0",
+      "0",
+      "-100",
+      "200",
+      "mono"
+    ]
+  },
+  {
+    "id": 12,
+    "kind": "valid-boundary",
+    "args": [
+      "0",
+      "0",
+      "0",
+      "-100",
+      "200",
+      "warm"
+    ]
+  },
+  {
+    "id": 13,
+    "kind": "valid-boundary",
+    "args": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "neutral"
+    ]
+  },
+  {
+    "id": 14,
+    "kind": "valid-boundary",
+    "args": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "mono"
+    ]
+  },
+  {
+    "id": 15,
+    "kind": "valid-boundary",
+    "args": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "warm"
+    ]
+  },
+  {
+    "id": 16,
+    "kind": "valid-boundary",
+    "args": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "99",
+      "neutral"
+    ]
+  },
+  {
+    "id": 17,
+    "kind": "valid-boundary",
+    "args": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "99",
+      "mono"
+    ]
+  },
+  {
+    "id": 18,
+    "kind": "valid-boundary",
+    "args": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "99",
+      "warm"
+    ]
+  },
+  {
+    "id": 19,
+    "kind": "valid-boundary",
+    "args": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "100",
+      "neutral"
+    ]
+  },
+  {
+    "id": 20,
+    "kind": "valid-boundary",
+    "args": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "100",
+      "mono"
+    ]
+  },
+  {
+    "id": 21,
+    "kind": "valid-boundary",
+    "args": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "100",
+      "warm"
+    ]
+  },
+  {
+    "id": 22,
+    "kind": "valid-boundary",
+    "args": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "200",
+      "neutral"
+    ]
+  },
+  {
+    "id": 23,
+    "kind": "valid-boundary",
+    "args": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "200",
+      "mono"
+    ]
+  },
+  {
+    "id": 24,
+    "kind": "valid-boundary",
+    "args": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "200",
+      "warm"
+    ]
+  },
+  {
+    "id": 25,
+    "kind": "valid-boundary",
+    "args": [
+      "0",
+      "0",
+      "0",
+      "100",
+      "0",
+      "neutral"
+    ]
+  },
+  {
+    "id": 26,
+    "kind": "valid-boundary",
+    "args": [
+      "0",
+      "0",
+      "0",
+      "100",
+      "0",
+      "mono"
+    ]
+  },
+  {
+    "id": 27,
+    "kind": "valid-boundary",
+    "args": [
+      "0",
+      "0",
+      "0",
+      "100",
+      "0",
+      "warm"
+    ]
+  },
+  {
+    "id": 28,
+    "kind": "valid-boundary",
+    "args": [
+      "0",
+      "0",
+      "0",
+      "100",
+      "99",
+      "neutral"
+    ]
+  },
+  {
+    "id": 29,
+    "kind": "valid-boundary",
+    "args": [
+      "0",
+      "0",
+      "0",
+      "100",
+      "99",
+      "mono"
+    ]
+  },
+  {
+    "id": 30,
+    "kind": "valid-boundary",
+    "args": [
+      "0",
+      "0",
+      "0",
+      "100",
+      "99",
+      "warm"
+    ]
+  },
+  {
+    "id": 31,
+    "kind": "valid-boundary",
+    "args": [
+      "0",
+      "0",
+      "0",
+      "100",
+      "100",
+      "neutral"
+    ]
+  },
+  {
+    "id": 32,
+    "kind": "valid-boundary",
+    "args": [
+      "0",
+      "0",
+      "0",
+      "100",
+      "100",
+      "mono"
+    ]
+  },
+  {
+    "id": 33,
+    "kind": "valid-boundary",
+    "args": [
+      "0",
+      "0",
+      "0",
+      "100",
+      "100",
+      "warm"
+    ]
+  },
+  {
+    "id": 34,
+    "kind": "valid-boundary",
+    "args": [
+      "0",
+      "0",
+      "0",
+      "100",
+      "200",
+      "neutral"
+    ]
+  },
+  {
+    "id": 35,
+    "kind": "valid-boundary",
+    "args": [
+      "0",
+      "0",
+      "0",
+      "100",
+      "200",
+      "mono"
+    ]
+  },
+  {
+    "id": 36,
+    "kind": "valid-boundary",
+    "args": [
+      "0",
+      "0",
+      "0",
+      "100",
+      "200",
+      "warm"
+    ]
+  },
+  {
+    "id": 37,
+    "kind": "valid-boundary",
+    "args": [
+      "255",
+      "255",
+      "255",
+      "-100",
+      "0",
+      "neutral"
+    ]
+  },
+  {
+    "id": 38,
+    "kind": "valid-boundary",
+    "args": [
+      "255",
+      "255",
+      "255",
+      "-100",
+      "0",
+      "mono"
+    ]
+  },
+  {
+    "id": 39,
+    "kind": "valid-boundary",
+    "args": [
+      "255",
+      "255",
+      "255",
+      "-100",
+      "0",
+      "warm"
+    ]
+  },
+  {
+    "id": 40,
+    "kind": "valid-boundary",
+    "args": [
+      "255",
+      "255",
+      "255",
+      "-100",
+      "99",
+      "neutral"
+    ]
+  },
+  {
+    "id": 41,
+    "kind": "valid-boundary",
+    "args": [
+      "255",
+      "255",
+      "255",
+      "-100",
+      "99",
+      "mono"
+    ]
+  },
+  {
+    "id": 42,
+    "kind": "valid-boundary",
+    "args": [
+      "255",
+      "255",
+      "255",
+      "-100",
+      "99",
+      "warm"
+    ]
+  },
+  {
+    "id": 43,
+    "kind": "valid-boundary",
+    "args": [
+      "255",
+      "255",
+      "255",
+      "-100",
+      "100",
+      "neutral"
+    ]
+  },
+  {
+    "id": 44,
+    "kind": "valid-boundary",
+    "args": [
+      "255",
+      "255",
+      "255",
+      "-100",
+      "100",
+      "mono"
+    ]
+  },
+  {
+    "id": 45,
+    "kind": "valid-boundary",
+    "args": [
+      "255",
+      "255",
+      "255",
+      "-100",
+      "100",
+      "warm"
+    ]
+  },
+  {
+    "id": 46,
+    "kind": "valid-boundary",
+    "args": [
+      "255",
+      "255",
+      "255",
+      "-100",
+      "200",
+      "neutral"
+    ]
+  },
+  {
+    "id": 47,
+    "kind": "valid-boundary",
+    "args": [
+      "255",
+      "255",
+      "255",
+      "-100",
+      "200",
+      "mono"
+    ]
+  },
+  {
+    "id": 48,
+    "kind": "valid-boundary",
+    "args": [
+      "255",
+      "255",
+      "255",
+      "-100",
+      "200",
+      "warm"
+    ]
+  },
+  {
+    "id": 49,
+    "kind": "valid-boundary",
+    "args": [
+      "255",
+      "255",
+      "255",
+      "0",
+      "0",
+      "neutral"
+    ]
+  },
+  {
+    "id": 50,
+    "kind": "valid-boundary",
+    "args": [
+      "255",
+      "255",
+      "255",
+      "0",
+      "0",
+      "mono"
+    ]
+  },
+  {
+    "id": 51,
+    "kind": "valid-boundary",
+    "args": [
+      "255",
+      "255",
+      "255",
+      "0",
+      "0",
+      "warm"
+    ]
+  },
+  {
+    "id": 52,
+    "kind": "valid-boundary",
+    "args": [
+      "255",
+      "255",
+      "255",
+      "0",
+      "99",
+      "neutral"
+    ]
+  },
+  {
+    "id": 53,
+    "kind": "valid-boundary",
+    "args": [
+      "255",
+      "255",
+      "255",
+      "0",
+      "99",
+      "mono"
+    ]
+  },
+  {
+    "id": 54,
+    "kind": "valid-boundary",
+    "args": [
+      "255",
+      "255",
+      "255",
+      "0",
+      "99",
+      "warm"
+    ]
+  },
+  {
+    "id": 55,
+    "kind": "valid-boundary",
+    "args": [
+      "255",
+      "255",
+      "255",
+      "0",
+      "100",
+      "neutral"
+    ]
+  },
+  {
+    "id": 56,
+    "kind": "valid-boundary",
+    "args": [
+      "255",
+      "255",
+      "255",
+      "0",
+      "100",
+      "mono"
+    ]
+  },
+  {
+    "id": 57,
+    "kind": "valid-boundary",
+    "args": [
+      "255",
+      "255",
+      "255",
+      "0",
+      "100",
+      "warm"
+    ]
+  },
+  {
+    "id": 58,
+    "kind": "valid-boundary",
+    "args": [
+      "255",
+      "255",
+      "255",
+      "0",
+      "200",
+      "neutral"
+    ]
+  },
+  {
+    "id": 59,
+    "kind": "valid-boundary",
+    "args": [
+      "255",
+      "255",
+      "255",
+      "0",
+      "200",
+      "mono"
+    ]
+  },
+  {
+    "id": 60,
+    "kind": "valid-boundary",
+    "args": [
+      "255",
+      "255",
+      "255",
+      "0",
+      "200",
+      "warm"
+    ]
+  },
+  {
+    "id": 61,
+    "kind": "valid-boundary",
+    "args": [
+      "255",
+      "255",
+      "255",
+      "100",
+      "0",
+      "neutral"
+    ]
+  },
+  {
+    "id": 62,
+    "kind": "valid-boundary",
+    "args": [
+      "255",
+      "255",
+      "255",
+      "100",
+      "0",
+      "mono"
+    ]
+  },
+  {
+    "id": 63,
+    "kind": "valid-boundary",
+    "args": [
+      "255",
+      "255",
+      "255",
+      "100",
+      "0",
+      "warm"
+    ]
+  },
+  {
+    "id": 64,
+    "kind": "valid-boundary",
+    "args": [
+      "255",
+      "255",
+      "255",
+      "100",
+      "99",
+      "neutral"
+    ]
+  },
+  {
+    "id": 65,
+    "kind": "valid-boundary",
+    "args": [
+      "255",
+      "255",
+      "255",
+      "100",
+      "99",
+      "mono"
+    ]
+  },
+  {
+    "id": 66,
+    "kind": "valid-boundary",
+    "args": [
+      "255",
+      "255",
+      "255",
+      "100",
+      "99",
+      "warm"
+    ]
+  },
+  {
+    "id": 67,
+    "kind": "valid-boundary",
+    "args": [
+      "255",
+      "255",
+      "255",
+      "100",
+      "100",
+      "neutral"
+    ]
+  },
+  {
+    "id": 68,
+    "kind": "valid-boundary",
+    "args": [
+      "255",
+      "255",
+      "255",
+      "100",
+      "100",
+      "mono"
+    ]
+  },
+  {
+    "id": 69,
+    "kind": "valid-boundary",
+    "args": [
+      "255",
+      "255",
+      "255",
+      "100",
+      "100",
+      "warm"
+    ]
+  },
+  {
+    "id": 70,
+    "kind": "valid-boundary",
+    "args": [
+      "255",
+      "255",
+      "255",
+      "100",
+      "200",
+      "neutral"
+    ]
+  },
+  {
+    "id": 71,
+    "kind": "valid-boundary",
+    "args": [
+      "255",
+      "255",
+      "255",
+      "100",
+      "200",
+      "mono"
+    ]
+  },
+  {
+    "id": 72,
+    "kind": "valid-boundary",
+    "args": [
+      "255",
+      "255",
+      "255",
+      "100",
+      "200",
+      "warm"
+    ]
+  },
+  {
+    "id": 73,
+    "kind": "valid-boundary",
+    "args": [
+      "127",
+      "128",
+      "129",
+      "-100",
+      "0",
+      "neutral"
+    ]
+  },
+  {
+    "id": 74,
+    "kind": "valid-boundary",
+    "args": [
+      "127",
+      "128",
+      "129",
+      "-100",
+      "0",
+      "mono"
+    ]
+  },
+  {
+    "id": 75,
+    "kind": "valid-boundary",
+    "args": [
+      "127",
+      "128",
+      "129",
+      "-100",
+      "0",
+      "warm"
+    ]
+  },
+  {
+    "id": 76,
+    "kind": "valid-boundary",
+    "args": [
+      "127",
+      "128",
+      "129",
+      "-100",
+      "99",
+      "neutral"
+    ]
+  },
+  {
+    "id": 77,
+    "kind": "valid-boundary",
+    "args": [
+      "127",
+      "128",
+      "129",
+      "-100",
+      "99",
+      "mono"
+    ]
+  },
+  {
+    "id": 78,
+    "kind": "valid-boundary",
+    "args": [
+      "127",
+      "128",
+      "129",
+      "-100",
+      "99",
+      "warm"
+    ]
+  },
+  {
+    "id": 79,
+    "kind": "valid-boundary",
+    "args": [
+      "127",
+      "128",
+      "129",
+      "-100",
+      "100",
+      "neutral"
+    ]
+  },
+  {
+    "id": 80,
+    "kind": "valid-boundary",
+    "args": [
+      "127",
+      "128",
+      "129",
+      "-100",
+      "100",
+      "mono"
+    ]
+  },
+  {
+    "id": 81,
+    "kind": "valid-boundary",
+    "args": [
+      "127",
+      "128",
+      "129",
+      "-100",
+      "100",
+      "warm"
+    ]
+  },
+  {
+    "id": 82,
+    "kind": "valid-boundary",
+    "args": [
+      "127",
+      "128",
+      "129",
+      "-100",
+      "200",
+      "neutral"
+    ]
+  },
+  {
+    "id": 83,
+    "kind": "valid-boundary",
+    "args": [
+      "127",
+      "128",
+      "129",
+      "-100",
+      "200",
+      "mono"
+    ]
+  },
+  {
+    "id": 84,
+    "kind": "valid-boundary",
+    "args": [
+      "127",
+      "128",
+      "129",
+      "-100",
+      "200",
+      "warm"
+    ]
+  },
+  {
+    "id": 85,
+    "kind": "valid-boundary",
+    "args": [
+      "127",
+      "128",
+      "129",
+      "0",
+      "0",
+      "neutral"
+    ]
+  },
+  {
+    "id": 86,
+    "kind": "valid-boundary",
+    "args": [
+      "127",
+      "128",
+      "129",
+      "0",
+      "0",
+      "mono"
+    ]
+  },
+  {
+    "id": 87,
+    "kind": "valid-boundary",
+    "args": [
+      "127",
+      "128",
+      "129",
+      "0",
+      "0",
+      "warm"
+    ]
+  },
+  {
+    "id": 88,
+    "kind": "valid-boundary",
+    "args": [
+      "127",
+      "128",
+      "129",
+      "0",
+      "99",
+      "neutral"
+    ]
+  },
+  {
+    "id": 89,
+    "kind": "valid-boundary",
+    "args": [
+      "127",
+      "128",
+      "129",
+      "0",
+      "99",
+      "mono"
+    ]
+  },
+  {
+    "id": 90,
+    "kind": "valid-boundary",
+    "args": [
+      "127",
+      "128",
+      "129",
+      "0",
+      "99",
+      "warm"
+    ]
+  },
+  {
+    "id": 91,
+    "kind": "valid-boundary",
+    "args": [
+      "127",
+      "128",
+      "129",
+      "0",
+      "100",
+      "neutral"
+    ]
+  },
+  {
+    "id": 92,
+    "kind": "valid-boundary",
+    "args": [
+      "127",
+      "128",
+      "129",
+      "0",
+      "100",
+      "mono"
+    ]
+  },
+  {
+    "id": 93,
+    "kind": "valid-boundary",
+    "args": [
+      "127",
+      "128",
+      "129",
+      "0",
+      "100",
+      "warm"
+    ]
+  },
+  {
+    "id": 94,
+    "kind": "valid-boundary",
+    "args": [
+      "127",
+      "128",
+      "129",
+      "0",
+      "200",
+      "neutral"
+    ]
+  },
+  {
+    "id": 95,
+    "kind": "valid-boundary",
+    "args": [
+      "127",
+      "128",
+      "129",
+      "0",
+      "200",
+      "mono"
+    ]
+  },
+  {
+    "id": 96,
+    "kind": "valid-boundary",
+    "args": [
+      "127",
+      "128",
+      "129",
+      "0",
+      "200",
+      "warm"
+    ]
+  },
+  {
+    "id": 97,
+    "kind": "valid-boundary",
+    "args": [
+      "127",
+      "128",
+      "129",
+      "100",
+      "0",
+      "neutral"
+    ]
+  },
+  {
+    "id": 98,
+    "kind": "valid-boundary",
+    "args": [
+      "127",
+      "128",
+      "129",
+      "100",
+      "0",
+      "mono"
+    ]
+  },
+  {
+    "id": 99,
+    "kind": "valid-boundary",
+    "args": [
+      "127",
+      "128",
+      "129",
+      "100",
+      "0",
+      "warm"
+    ]
+  },
+  {
+    "id": 100,
+    "kind": "valid-boundary",
+    "args": [
+      "127",
+      "128",
+      "129",
+      "100",
+      "99",
+      "neutral"
+    ]
+  },
+  {
+    "id": 101,
+    "kind": "valid-boundary",
+    "args": [
+      "127",
+      "128",
+      "129",
+      "100",
+      "99",
+      "mono"
+    ]
+  },
+  {
+    "id": 102,
+    "kind": "valid-boundary",
+    "args": [
+      "127",
+      "128",
+      "129",
+      "100",
+      "99",
+      "warm"
+    ]
+  },
+  {
+    "id": 103,
+    "kind": "valid-boundary",
+    "args": [
+      "127",
+      "128",
+      "129",
+      "100",
+      "100",
+      "neutral"
+    ]
+  },
+  {
+    "id": 104,
+    "kind": "valid-boundary",
+    "args": [
+      "127",
+      "128",
+      "129",
+      "100",
+      "100",
+      "mono"
+    ]
+  },
+  {
+    "id": 105,
+    "kind": "valid-boundary",
+    "args": [
+      "127",
+      "128",
+      "129",
+      "100",
+      "100",
+      "warm"
+    ]
+  },
+  {
+    "id": 106,
+    "kind": "valid-boundary",
+    "args": [
+      "127",
+      "128",
+      "129",
+      "100",
+      "200",
+      "neutral"
+    ]
+  },
+  {
+    "id": 107,
+    "kind": "valid-boundary",
+    "args": [
+      "127",
+      "128",
+      "129",
+      "100",
+      "200",
+      "mono"
+    ]
+  },
+  {
+    "id": 108,
+    "kind": "valid-boundary",
+    "args": [
+      "127",
+      "128",
+      "129",
+      "100",
+      "200",
+      "warm"
+    ]
+  },
+  {
+    "id": 109,
+    "kind": "valid-boundary",
+    "args": [
+      "1",
+      "254",
+      "128",
+      "-100",
+      "0",
+      "neutral"
+    ]
+  },
+  {
+    "id": 110,
+    "kind": "valid-boundary",
+    "args": [
+      "1",
+      "254",
+      "128",
+      "-100",
+      "0",
+      "mono"
+    ]
+  },
+  {
+    "id": 111,
+    "kind": "valid-boundary",
+    "args": [
+      "1",
+      "254",
+      "128",
+      "-100",
+      "0",
+      "warm"
+    ]
+  },
+  {
+    "id": 112,
+    "kind": "valid-boundary",
+    "args": [
+      "1",
+      "254",
+      "128",
+      "-100",
+      "99",
+      "neutral"
+    ]
+  },
+  {
+    "id": 113,
+    "kind": "valid-boundary",
+    "args": [
+      "1",
+      "254",
+      "128",
+      "-100",
+      "99",
+      "mono"
+    ]
+  },
+  {
+    "id": 114,
+    "kind": "valid-boundary",
+    "args": [
+      "1",
+      "254",
+      "128",
+      "-100",
+      "99",
+      "warm"
+    ]
+  },
+  {
+    "id": 115,
+    "kind": "valid-boundary",
+    "args": [
+      "1",
+      "254",
+      "128",
+      "-100",
+      "100",
+      "neutral"
+    ]
+  },
+  {
+    "id": 116,
+    "kind": "valid-boundary",
+    "args": [
+      "1",
+      "254",
+      "128",
+      "-100",
+      "100",
+      "mono"
+    ]
+  },
+  {
+    "id": 117,
+    "kind": "valid-boundary",
+    "args": [
+      "1",
+      "254",
+      "128",
+      "-100",
+      "100",
+      "warm"
+    ]
+  },
+  {
+    "id": 118,
+    "kind": "valid-boundary",
+    "args": [
+      "1",
+      "254",
+      "128",
+      "-100",
+      "200",
+      "neutral"
+    ]
+  },
+  {
+    "id": 119,
+    "kind": "valid-boundary",
+    "args": [
+      "1",
+      "254",
+      "128",
+      "-100",
+      "200",
+      "mono"
+    ]
+  },
+  {
+    "id": 120,
+    "kind": "valid-boundary",
+    "args": [
+      "1",
+      "254",
+      "128",
+      "-100",
+      "200",
+      "warm"
+    ]
+  },
+  {
+    "id": 121,
+    "kind": "valid-boundary",
+    "args": [
+      "1",
+      "254",
+      "128",
+      "0",
+      "0",
+      "neutral"
+    ]
+  },
+  {
+    "id": 122,
+    "kind": "valid-boundary",
+    "args": [
+      "1",
+      "254",
+      "128",
+      "0",
+      "0",
+      "mono"
+    ]
+  },
+  {
+    "id": 123,
+    "kind": "valid-boundary",
+    "args": [
+      "1",
+      "254",
+      "128",
+      "0",
+      "0",
+      "warm"
+    ]
+  },
+  {
+    "id": 124,
+    "kind": "valid-boundary",
+    "args": [
+      "1",
+      "254",
+      "128",
+      "0",
+      "99",
+      "neutral"
+    ]
+  },
+  {
+    "id": 125,
+    "kind": "valid-boundary",
+    "args": [
+      "1",
+      "254",
+      "128",
+      "0",
+      "99",
+      "mono"
+    ]
+  },
+  {
+    "id": 126,
+    "kind": "valid-boundary",
+    "args": [
+      "1",
+      "254",
+      "128",
+      "0",
+      "99",
+      "warm"
+    ]
+  },
+  {
+    "id": 127,
+    "kind": "valid-boundary",
+    "args": [
+      "1",
+      "254",
+      "128",
+      "0",
+      "100",
+      "neutral"
+    ]
+  },
+  {
+    "id": 128,
+    "kind": "valid-boundary",
+    "args": [
+      "1",
+      "254",
+      "128",
+      "0",
+      "100",
+      "mono"
+    ]
+  },
+  {
+    "id": 129,
+    "kind": "valid-boundary",
+    "args": [
+      "1",
+      "254",
+      "128",
+      "0",
+      "100",
+      "warm"
+    ]
+  },
+  {
+    "id": 130,
+    "kind": "valid-boundary",
+    "args": [
+      "1",
+      "254",
+      "128",
+      "0",
+      "200",
+      "neutral"
+    ]
+  },
+  {
+    "id": 131,
+    "kind": "valid-boundary",
+    "args": [
+      "1",
+      "254",
+      "128",
+      "0",
+      "200",
+      "mono"
+    ]
+  },
+  {
+    "id": 132,
+    "kind": "valid-boundary",
+    "args": [
+      "1",
+      "254",
+      "128",
+      "0",
+      "200",
+      "warm"
+    ]
+  },
+  {
+    "id": 133,
+    "kind": "valid-boundary",
+    "args": [
+      "1",
+      "254",
+      "128",
+      "100",
+      "0",
+      "neutral"
+    ]
+  },
+  {
+    "id": 134,
+    "kind": "valid-boundary",
+    "args": [
+      "1",
+      "254",
+      "128",
+      "100",
+      "0",
+      "mono"
+    ]
+  },
+  {
+    "id": 135,
+    "kind": "valid-boundary",
+    "args": [
+      "1",
+      "254",
+      "128",
+      "100",
+      "0",
+      "warm"
+    ]
+  },
+  {
+    "id": 136,
+    "kind": "valid-boundary",
+    "args": [
+      "1",
+      "254",
+      "128",
+      "100",
+      "99",
+      "neutral"
+    ]
+  },
+  {
+    "id": 137,
+    "kind": "valid-boundary",
+    "args": [
+      "1",
+      "254",
+      "128",
+      "100",
+      "99",
+      "mono"
+    ]
+  },
+  {
+    "id": 138,
+    "kind": "valid-boundary",
+    "args": [
+      "1",
+      "254",
+      "128",
+      "100",
+      "99",
+      "warm"
+    ]
+  },
+  {
+    "id": 139,
+    "kind": "valid-boundary",
+    "args": [
+      "1",
+      "254",
+      "128",
+      "100",
+      "100",
+      "neutral"
+    ]
+  },
+  {
+    "id": 140,
+    "kind": "valid-boundary",
+    "args": [
+      "1",
+      "254",
+      "128",
+      "100",
+      "100",
+      "mono"
+    ]
+  },
+  {
+    "id": 141,
+    "kind": "valid-boundary",
+    "args": [
+      "1",
+      "254",
+      "128",
+      "100",
+      "100",
+      "warm"
+    ]
+  },
+  {
+    "id": 142,
+    "kind": "valid-boundary",
+    "args": [
+      "1",
+      "254",
+      "128",
+      "100",
+      "200",
+      "neutral"
+    ]
+  },
+  {
+    "id": 143,
+    "kind": "valid-boundary",
+    "args": [
+      "1",
+      "254",
+      "128",
+      "100",
+      "200",
+      "mono"
+    ]
+  },
+  {
+    "id": 144,
+    "kind": "valid-boundary",
+    "args": [
+      "1",
+      "254",
+      "128",
+      "100",
+      "200",
+      "warm"
+    ]
+  },
+  {
+    "id": 145,
+    "kind": "valid-boundary",
+    "args": [
+      "200",
+      "64",
+      "17",
+      "-100",
+      "0",
+      "neutral"
+    ]
+  },
+  {
+    "id": 146,
+    "kind": "valid-boundary",
+    "args": [
+      "200",
+      "64",
+      "17",
+      "-100",
+      "0",
+      "mono"
+    ]
+  },
+  {
+    "id": 147,
+    "kind": "valid-boundary",
+    "args": [
+      "200",
+      "64",
+      "17",
+      "-100",
+      "0",
+      "warm"
+    ]
+  },
+  {
+    "id": 148,
+    "kind": "valid-boundary",
+    "args": [
+      "200",
+      "64",
+      "17",
+      "-100",
+      "99",
+      "neutral"
+    ]
+  },
+  {
+    "id": 149,
+    "kind": "valid-boundary",
+    "args": [
+      "200",
+      "64",
+      "17",
+      "-100",
+      "99",
+      "mono"
+    ]
+  },
+  {
+    "id": 150,
+    "kind": "valid-boundary",
+    "args": [
+      "200",
+      "64",
+      "17",
+      "-100",
+      "99",
+      "warm"
+    ]
+  },
+  {
+    "id": 151,
+    "kind": "valid-boundary",
+    "args": [
+      "200",
+      "64",
+      "17",
+      "-100",
+      "100",
+      "neutral"
+    ]
+  },
+  {
+    "id": 152,
+    "kind": "valid-boundary",
+    "args": [
+      "200",
+      "64",
+      "17",
+      "-100",
+      "100",
+      "mono"
+    ]
+  },
+  {
+    "id": 153,
+    "kind": "valid-boundary",
+    "args": [
+      "200",
+      "64",
+      "17",
+      "-100",
+      "100",
+      "warm"
+    ]
+  },
+  {
+    "id": 154,
+    "kind": "valid-boundary",
+    "args": [
+      "200",
+      "64",
+      "17",
+      "-100",
+      "200",
+      "neutral"
+    ]
+  },
+  {
+    "id": 155,
+    "kind": "valid-boundary",
+    "args": [
+      "200",
+      "64",
+      "17",
+      "-100",
+      "200",
+      "mono"
+    ]
+  },
+  {
+    "id": 156,
+    "kind": "valid-boundary",
+    "args": [
+      "200",
+      "64",
+      "17",
+      "-100",
+      "200",
+      "warm"
+    ]
+  },
+  {
+    "id": 157,
+    "kind": "valid-boundary",
+    "args": [
+      "200",
+      "64",
+      "17",
+      "0",
+      "0",
+      "neutral"
+    ]
+  },
+  {
+    "id": 158,
+    "kind": "valid-boundary",
+    "args": [
+      "200",
+      "64",
+      "17",
+      "0",
+      "0",
+      "mono"
+    ]
+  },
+  {
+    "id": 159,
+    "kind": "valid-boundary",
+    "args": [
+      "200",
+      "64",
+      "17",
+      "0",
+      "0",
+      "warm"
+    ]
+  },
+  {
+    "id": 160,
+    "kind": "valid-boundary",
+    "args": [
+      "200",
+      "64",
+      "17",
+      "0",
+      "99",
+      "neutral"
+    ]
+  },
+  {
+    "id": 161,
+    "kind": "valid-boundary",
+    "args": [
+      "200",
+      "64",
+      "17",
+      "0",
+      "99",
+      "mono"
+    ]
+  },
+  {
+    "id": 162,
+    "kind": "valid-boundary",
+    "args": [
+      "200",
+      "64",
+      "17",
+      "0",
+      "99",
+      "warm"
+    ]
+  },
+  {
+    "id": 163,
+    "kind": "valid-boundary",
+    "args": [
+      "200",
+      "64",
+      "17",
+      "0",
+      "100",
+      "neutral"
+    ]
+  },
+  {
+    "id": 164,
+    "kind": "valid-boundary",
+    "args": [
+      "200",
+      "64",
+      "17",
+      "0",
+      "100",
+      "mono"
+    ]
+  },
+  {
+    "id": 165,
+    "kind": "valid-boundary",
+    "args": [
+      "200",
+      "64",
+      "17",
+      "0",
+      "100",
+      "warm"
+    ]
+  },
+  {
+    "id": 166,
+    "kind": "valid-boundary",
+    "args": [
+      "200",
+      "64",
+      "17",
+      "0",
+      "200",
+      "neutral"
+    ]
+  },
+  {
+    "id": 167,
+    "kind": "valid-boundary",
+    "args": [
+      "200",
+      "64",
+      "17",
+      "0",
+      "200",
+      "mono"
+    ]
+  },
+  {
+    "id": 168,
+    "kind": "valid-boundary",
+    "args": [
+      "200",
+      "64",
+      "17",
+      "0",
+      "200",
+      "warm"
+    ]
+  },
+  {
+    "id": 169,
+    "kind": "valid-boundary",
+    "args": [
+      "200",
+      "64",
+      "17",
+      "100",
+      "0",
+      "neutral"
+    ]
+  },
+  {
+    "id": 170,
+    "kind": "valid-boundary",
+    "args": [
+      "200",
+      "64",
+      "17",
+      "100",
+      "0",
+      "mono"
+    ]
+  },
+  {
+    "id": 171,
+    "kind": "valid-boundary",
+    "args": [
+      "200",
+      "64",
+      "17",
+      "100",
+      "0",
+      "warm"
+    ]
+  },
+  {
+    "id": 172,
+    "kind": "valid-boundary",
+    "args": [
+      "200",
+      "64",
+      "17",
+      "100",
+      "99",
+      "neutral"
+    ]
+  },
+  {
+    "id": 173,
+    "kind": "valid-boundary",
+    "args": [
+      "200",
+      "64",
+      "17",
+      "100",
+      "99",
+      "mono"
+    ]
+  },
+  {
+    "id": 174,
+    "kind": "valid-boundary",
+    "args": [
+      "200",
+      "64",
+      "17",
+      "100",
+      "99",
+      "warm"
+    ]
+  },
+  {
+    "id": 175,
+    "kind": "valid-boundary",
+    "args": [
+      "200",
+      "64",
+      "17",
+      "100",
+      "100",
+      "neutral"
+    ]
+  },
+  {
+    "id": 176,
+    "kind": "valid-boundary",
+    "args": [
+      "200",
+      "64",
+      "17",
+      "100",
+      "100",
+      "mono"
+    ]
+  },
+  {
+    "id": 177,
+    "kind": "valid-boundary",
+    "args": [
+      "200",
+      "64",
+      "17",
+      "100",
+      "100",
+      "warm"
+    ]
+  },
+  {
+    "id": 178,
+    "kind": "valid-boundary",
+    "args": [
+      "200",
+      "64",
+      "17",
+      "100",
+      "200",
+      "neutral"
+    ]
+  },
+  {
+    "id": 179,
+    "kind": "valid-boundary",
+    "args": [
+      "200",
+      "64",
+      "17",
+      "100",
+      "200",
+      "mono"
+    ]
+  },
+  {
+    "id": 180,
+    "kind": "valid-boundary",
+    "args": [
+      "200",
+      "64",
+      "17",
+      "100",
+      "200",
+      "warm"
+    ]
+  },
+  {
+    "id": 181,
+    "kind": "valid-random",
+    "args": [
+      "89",
+      "76",
+      "246",
+      "51",
+      "130",
+      "mono"
+    ]
+  },
+  {
+    "id": 182,
+    "kind": "valid-random",
+    "args": [
+      "183",
+      "163",
+      "181",
+      "-62",
+      "139",
+      "mono"
+    ]
+  },
+  {
+    "id": 183,
+    "kind": "valid-random",
+    "args": [
+      "158",
+      "226",
+      "221",
+      "-31",
+      "60",
+      "neutral"
+    ]
+  },
+  {
+    "id": 184,
+    "kind": "valid-random",
+    "args": [
+      "229",
+      "160",
+      "206",
+      "-20",
+      "67",
+      "mono"
+    ]
+  },
+  {
+    "id": 185,
+    "kind": "valid-random",
+    "args": [
+      "102",
+      "38",
+      "171",
+      "-45",
+      "28",
+      "mono"
+    ]
+  },
+  {
+    "id": 186,
+    "kind": "valid-random",
+    "args": [
+      "50",
+      "6",
+      "24",
+      "-6",
+      "70",
+      "mono"
+    ]
+  },
+  {
+    "id": 187,
+    "kind": "valid-random",
+    "args": [
+      "61",
+      "222",
+      "195",
+      "-77",
+      "33",
+      "neutral"
+    ]
+  },
+  {
+    "id": 188,
+    "kind": "valid-random",
+    "args": [
+      "139",
+      "185",
+      "29",
+      "-5",
+      "176",
+      "neutral"
+    ]
+  },
+  {
+    "id": 189,
+    "kind": "valid-random",
+    "args": [
+      "29",
+      "104",
+      "4",
+      "-25",
+      "132",
+      "warm"
+    ]
+  },
+  {
+    "id": 190,
+    "kind": "valid-random",
+    "args": [
+      "2",
+      "0",
+      "137",
+      "-78",
+      "94",
+      "warm"
+    ]
+  },
+  {
+    "id": 191,
+    "kind": "valid-random",
+    "args": [
+      "251",
+      "50",
+      "183",
+      "-99",
+      "67",
+      "neutral"
+    ]
+  },
+  {
+    "id": 192,
+    "kind": "valid-random",
+    "args": [
+      "57",
+      "245",
+      "8",
+      "-46",
+      "2",
+      "warm"
+    ]
+  },
+  {
+    "id": 193,
+    "kind": "valid-random",
+    "args": [
+      "85",
+      "109",
+      "161",
+      "76",
+      "58",
+      "mono"
+    ]
+  },
+  {
+    "id": 194,
+    "kind": "valid-random",
+    "args": [
+      "144",
+      "0",
+      "109",
+      "-63",
+      "24",
+      "warm"
+    ]
+  },
+  {
+    "id": 195,
+    "kind": "valid-random",
+    "args": [
+      "109",
+      "123",
+      "48",
+      "82",
+      "54",
+      "mono"
+    ]
+  },
+  {
+    "id": 196,
+    "kind": "valid-random",
+    "args": [
+      "133",
+      "76",
+      "111",
+      "-64",
+      "5",
+      "neutral"
+    ]
+  },
+  {
+    "id": 197,
+    "kind": "valid-random",
+    "args": [
+      "232",
+      "241",
+      "240",
+      "56",
+      "118",
+      "warm"
+    ]
+  },
+  {
+    "id": 198,
+    "kind": "valid-random",
+    "args": [
+      "4",
+      "241",
+      "235",
+      "-24",
+      "67",
+      "neutral"
+    ]
+  },
+  {
+    "id": 199,
+    "kind": "valid-random",
+    "args": [
+      "147",
+      "39",
+      "203",
+      "25",
+      "95",
+      "mono"
+    ]
+  },
+  {
+    "id": 200,
+    "kind": "valid-random",
+    "args": [
+      "76",
+      "217",
+      "213",
+      "26",
+      "73",
+      "mono"
+    ]
+  },
+  {
+    "id": 201,
+    "kind": "valid-random",
+    "args": [
+      "250",
+      "203",
+      "119",
+      "-4",
+      "111",
+      "mono"
+    ]
+  },
+  {
+    "id": 202,
+    "kind": "valid-random",
+    "args": [
+      "176",
+      "200",
+      "54",
+      "-43",
+      "116",
+      "warm"
+    ]
+  },
+  {
+    "id": 203,
+    "kind": "valid-random",
+    "args": [
+      "88",
+      "106",
+      "198",
+      "-88",
+      "39",
+      "mono"
+    ]
+  },
+  {
+    "id": 204,
+    "kind": "valid-random",
+    "args": [
+      "164",
+      "141",
+      "250",
+      "-40",
+      "190",
+      "mono"
+    ]
+  },
+  {
+    "id": 205,
+    "kind": "valid-random",
+    "args": [
+      "194",
+      "37",
+      "171",
+      "41",
+      "30",
+      "mono"
+    ]
+  },
+  {
+    "id": 206,
+    "kind": "valid-random",
+    "args": [
+      "26",
+      "0",
+      "74",
+      "-57",
+      "107",
+      "mono"
+    ]
+  },
+  {
+    "id": 207,
+    "kind": "valid-random",
+    "args": [
+      "154",
+      "113",
+      "165",
+      "14",
+      "181",
+      "neutral"
+    ]
+  },
+  {
+    "id": 208,
+    "kind": "valid-random",
+    "args": [
+      "150",
+      "124",
+      "236",
+      "-5",
+      "47",
+      "neutral"
+    ]
+  },
+  {
+    "id": 209,
+    "kind": "valid-random",
+    "args": [
+      "101",
+      "190",
+      "57",
+      "34",
+      "149",
+      "warm"
+    ]
+  },
+  {
+    "id": 210,
+    "kind": "valid-random",
+    "args": [
+      "14",
+      "103",
+      "237",
+      "-40",
+      "152",
+      "warm"
+    ]
+  },
+  {
+    "id": 211,
+    "kind": "valid-random",
+    "args": [
+      "48",
+      "176",
+      "239",
+      "-56",
+      "82",
+      "neutral"
+    ]
+  },
+  {
+    "id": 212,
+    "kind": "valid-random",
+    "args": [
+      "211",
+      "102",
+      "130",
+      "-71",
+      "10",
+      "neutral"
+    ]
+  },
+  {
+    "id": 213,
+    "kind": "valid-random",
+    "args": [
+      "223",
+      "163",
+      "51",
+      "9",
+      "76",
+      "neutral"
+    ]
+  },
+  {
+    "id": 214,
+    "kind": "valid-random",
+    "args": [
+      "48",
+      "84",
+      "206",
+      "-90",
+      "31",
+      "mono"
+    ]
+  },
+  {
+    "id": 215,
+    "kind": "valid-random",
+    "args": [
+      "211",
+      "187",
+      "92",
+      "-79",
+      "160",
+      "warm"
+    ]
+  },
+  {
+    "id": 216,
+    "kind": "valid-random",
+    "args": [
+      "206",
+      "50",
+      "128",
+      "14",
+      "59",
+      "mono"
+    ]
+  },
+  {
+    "id": 217,
+    "kind": "valid-random",
+    "args": [
+      "139",
+      "88",
+      "87",
+      "-42",
+      "133",
+      "neutral"
+    ]
+  },
+  {
+    "id": 218,
+    "kind": "valid-random",
+    "args": [
+      "52",
+      "32",
+      "117",
+      "58",
+      "174",
+      "mono"
+    ]
+  },
+  {
+    "id": 219,
+    "kind": "valid-random",
+    "args": [
+      "178",
+      "242",
+      "205",
+      "-16",
+      "127",
+      "neutral"
+    ]
+  },
+  {
+    "id": 220,
+    "kind": "valid-random",
+    "args": [
+      "26",
+      "236",
+      "1",
+      "59",
+      "53",
+      "neutral"
+    ]
+  },
+  {
+    "id": 221,
+    "kind": "valid-random",
+    "args": [
+      "169",
+      "172",
+      "220",
+      "73",
+      "106",
+      "warm"
+    ]
+  },
+  {
+    "id": 222,
+    "kind": "valid-random",
+    "args": [
+      "42",
+      "87",
+      "124",
+      "-90",
+      "7",
+      "mono"
+    ]
+  },
+  {
+    "id": 223,
+    "kind": "valid-random",
+    "args": [
+      "233",
+      "228",
+      "149",
+      "-64",
+      "63",
+      "warm"
+    ]
+  },
+  {
+    "id": 224,
+    "kind": "valid-random",
+    "args": [
+      "188",
+      "84",
+      "103",
+      "-68",
+      "173",
+      "warm"
+    ]
+  },
+  {
+    "id": 225,
+    "kind": "valid-random",
+    "args": [
+      "195",
+      "61",
+      "92",
+      "-71",
+      "138",
+      "neutral"
+    ]
+  },
+  {
+    "id": 226,
+    "kind": "valid-random",
+    "args": [
+      "92",
+      "89",
+      "91",
+      "-30",
+      "117",
+      "neutral"
+    ]
+  },
+  {
+    "id": 227,
+    "kind": "valid-random",
+    "args": [
+      "28",
+      "195",
+      "95",
+      "90",
+      "190",
+      "mono"
+    ]
+  },
+  {
+    "id": 228,
+    "kind": "valid-random",
+    "args": [
+      "80",
+      "253",
+      "45",
+      "42",
+      "15",
+      "warm"
+    ]
+  },
+  {
+    "id": 229,
+    "kind": "valid-random",
+    "args": [
+      "188",
+      "226",
+      "141",
+      "-35",
+      "84",
+      "neutral"
+    ]
+  },
+  {
+    "id": 230,
+    "kind": "valid-random",
+    "args": [
+      "250",
+      "234",
+      "180",
+      "-92",
+      "161",
+      "mono"
+    ]
+  },
+  {
+    "id": 231,
+    "kind": "valid-random",
+    "args": [
+      "136",
+      "24",
+      "197",
+      "57",
+      "11",
+      "mono"
+    ]
+  },
+  {
+    "id": 232,
+    "kind": "valid-random",
+    "args": [
+      "137",
+      "146",
+      "53",
+      "-99",
+      "126",
+      "neutral"
+    ]
+  },
+  {
+    "id": 233,
+    "kind": "valid-random",
+    "args": [
+      "163",
+      "143",
+      "42",
+      "-96",
+      "185",
+      "warm"
+    ]
+  },
+  {
+    "id": 234,
+    "kind": "valid-random",
+    "args": [
+      "202",
+      "209",
+      "66",
+      "-22",
+      "180",
+      "neutral"
+    ]
+  },
+  {
+    "id": 235,
+    "kind": "valid-random",
+    "args": [
+      "74",
+      "233",
+      "92",
+      "-91",
+      "148",
+      "neutral"
+    ]
+  },
+  {
+    "id": 236,
+    "kind": "valid-random",
+    "args": [
+      "166",
+      "221",
+      "148",
+      "-4",
+      "17",
+      "neutral"
+    ]
+  },
+  {
+    "id": 237,
+    "kind": "valid-random",
+    "args": [
+      "222",
+      "192",
+      "188",
+      "-78",
+      "115",
+      "mono"
+    ]
+  },
+  {
+    "id": 238,
+    "kind": "valid-random",
+    "args": [
+      "38",
+      "58",
+      "172",
+      "-68",
+      "51",
+      "mono"
+    ]
+  },
+  {
+    "id": 239,
+    "kind": "valid-random",
+    "args": [
+      "181",
+      "114",
+      "30",
+      "-82",
+      "51",
+      "mono"
+    ]
+  },
+  {
+    "id": 240,
+    "kind": "valid-random",
+    "args": [
+      "230",
+      "125",
+      "213",
+      "87",
+      "101",
+      "mono"
+    ]
+  },
+  {
+    "id": 241,
+    "kind": "valid-random",
+    "args": [
+      "160",
+      "47",
+      "134",
+      "-20",
+      "1",
+      "neutral"
+    ]
+  },
+  {
+    "id": 242,
+    "kind": "valid-random",
+    "args": [
+      "158",
+      "74",
+      "98",
+      "13",
+      "53",
+      "neutral"
+    ]
+  },
+  {
+    "id": 243,
+    "kind": "valid-random",
+    "args": [
+      "196",
+      "187",
+      "88",
+      "-48",
+      "55",
+      "warm"
+    ]
+  },
+  {
+    "id": 244,
+    "kind": "valid-random",
+    "args": [
+      "103",
+      "215",
+      "49",
+      "0",
+      "108",
+      "neutral"
+    ]
+  },
+  {
+    "id": 245,
+    "kind": "valid-random",
+    "args": [
+      "68",
+      "242",
+      "96",
+      "-57",
+      "123",
+      "neutral"
+    ]
+  },
+  {
+    "id": 246,
+    "kind": "valid-random",
+    "args": [
+      "134",
+      "0",
+      "163",
+      "-96",
+      "109",
+      "warm"
+    ]
+  },
+  {
+    "id": 247,
+    "kind": "valid-random",
+    "args": [
+      "137",
+      "63",
+      "13",
+      "-92",
+      "197",
+      "warm"
+    ]
+  },
+  {
+    "id": 248,
+    "kind": "valid-random",
+    "args": [
+      "102",
+      "236",
+      "18",
+      "-31",
+      "79",
+      "mono"
+    ]
+  },
+  {
+    "id": 249,
+    "kind": "valid-random",
+    "args": [
+      "57",
+      "2",
+      "35",
+      "16",
+      "105",
+      "neutral"
+    ]
+  },
+  {
+    "id": 250,
+    "kind": "valid-random",
+    "args": [
+      "119",
+      "218",
+      "10",
+      "-42",
+      "63",
+      "mono"
+    ]
+  },
+  {
+    "id": 251,
+    "kind": "valid-random",
+    "args": [
+      "159",
+      "175",
+      "168",
+      "-3",
+      "138",
+      "mono"
+    ]
+  },
+  {
+    "id": 252,
+    "kind": "valid-random",
+    "args": [
+      "61",
+      "12",
+      "250",
+      "22",
+      "52",
+      "warm"
+    ]
+  },
+  {
+    "id": 253,
+    "kind": "valid-random",
+    "args": [
+      "101",
+      "9",
+      "151",
+      "-11",
+      "182",
+      "warm"
+    ]
+  },
+  {
+    "id": 254,
+    "kind": "valid-random",
+    "args": [
+      "54",
+      "65",
+      "226",
+      "33",
+      "66",
+      "neutral"
+    ]
+  },
+  {
+    "id": 255,
+    "kind": "valid-random",
+    "args": [
+      "216",
+      "197",
+      "89",
+      "-52",
+      "116",
+      "warm"
+    ]
+  },
+  {
+    "id": 256,
+    "kind": "valid-random",
+    "args": [
+      "179",
+      "133",
+      "34",
+      "-34",
+      "28",
+      "neutral"
+    ]
+  },
+  {
+    "id": 257,
+    "kind": "valid-random",
+    "args": [
+      "61",
+      "40",
+      "229",
+      "-70",
+      "17",
+      "mono"
+    ]
+  },
+  {
+    "id": 258,
+    "kind": "valid-random",
+    "args": [
+      "56",
+      "230",
+      "227",
+      "99",
+      "52",
+      "neutral"
+    ]
+  },
+  {
+    "id": 259,
+    "kind": "valid-random",
+    "args": [
+      "255",
+      "158",
+      "195",
+      "77",
+      "54",
+      "neutral"
+    ]
+  },
+  {
+    "id": 260,
+    "kind": "valid-random",
+    "args": [
+      "132",
+      "48",
+      "128",
+      "-53",
+      "20",
+      "neutral"
+    ]
+  },
+  {
+    "id": 261,
+    "kind": "valid-random",
+    "args": [
+      "215",
+      "119",
+      "109",
+      "-34",
+      "118",
+      "mono"
+    ]
+  },
+  {
+    "id": 262,
+    "kind": "valid-random",
+    "args": [
+      "228",
+      "7",
+      "111",
+      "15",
+      "18",
+      "mono"
+    ]
+  },
+  {
+    "id": 263,
+    "kind": "valid-random",
+    "args": [
+      "227",
+      "240",
+      "130",
+      "99",
+      "171",
+      "neutral"
+    ]
+  },
+  {
+    "id": 264,
+    "kind": "valid-random",
+    "args": [
+      "48",
+      "191",
+      "30",
+      "50",
+      "11",
+      "warm"
+    ]
+  },
+  {
+    "id": 265,
+    "kind": "valid-random",
+    "args": [
+      "72",
+      "254",
+      "106",
+      "51",
+      "169",
+      "warm"
+    ]
+  },
+  {
+    "id": 266,
+    "kind": "valid-random",
+    "args": [
+      "56",
+      "248",
+      "166",
+      "-100",
+      "55",
+      "warm"
+    ]
+  },
+  {
+    "id": 267,
+    "kind": "valid-random",
+    "args": [
+      "102",
+      "164",
+      "131",
+      "-75",
+      "53",
+      "mono"
+    ]
+  },
+  {
+    "id": 268,
+    "kind": "valid-random",
+    "args": [
+      "165",
+      "134",
+      "245",
+      "-9",
+      "137",
+      "warm"
+    ]
+  },
+  {
+    "id": 269,
+    "kind": "valid-random",
+    "args": [
+      "51",
+      "192",
+      "151",
+      "-4",
+      "74",
+      "warm"
+    ]
+  },
+  {
+    "id": 270,
+    "kind": "valid-random",
+    "args": [
+      "205",
+      "24",
+      "67",
+      "-57",
+      "84",
+      "neutral"
+    ]
+  },
+  {
+    "id": 271,
+    "kind": "valid-random",
+    "args": [
+      "217",
+      "141",
+      "217",
+      "42",
+      "155",
+      "neutral"
+    ]
+  },
+  {
+    "id": 272,
+    "kind": "valid-random",
+    "args": [
+      "199",
+      "66",
+      "7",
+      "-73",
+      "152",
+      "mono"
+    ]
+  },
+  {
+    "id": 273,
+    "kind": "valid-random",
+    "args": [
+      "224",
+      "2",
+      "102",
+      "-29",
+      "116",
+      "neutral"
+    ]
+  },
+  {
+    "id": 274,
+    "kind": "valid-random",
+    "args": [
+      "252",
+      "100",
+      "240",
+      "-89",
+      "182",
+      "warm"
+    ]
+  },
+  {
+    "id": 275,
+    "kind": "valid-random",
+    "args": [
+      "213",
+      "122",
+      "114",
+      "-100",
+      "162",
+      "warm"
+    ]
+  },
+  {
+    "id": 276,
+    "kind": "valid-random",
+    "args": [
+      "166",
+      "184",
+      "237",
+      "-38",
+      "158",
+      "warm"
+    ]
+  },
+  {
+    "id": 277,
+    "kind": "valid-random",
+    "args": [
+      "230",
+      "96",
+      "26",
+      "-89",
+      "70",
+      "mono"
+    ]
+  },
+  {
+    "id": 278,
+    "kind": "valid-random",
+    "args": [
+      "202",
+      "137",
+      "235",
+      "92",
+      "51",
+      "neutral"
+    ]
+  },
+  {
+    "id": 279,
+    "kind": "valid-random",
+    "args": [
+      "12",
+      "26",
+      "142",
+      "-99",
+      "194",
+      "mono"
+    ]
+  },
+  {
+    "id": 280,
+    "kind": "valid-random",
+    "args": [
+      "113",
+      "144",
+      "100",
+      "-25",
+      "164",
+      "neutral"
+    ]
+  },
+  {
+    "id": 281,
+    "kind": "valid-random",
+    "args": [
+      "149",
+      "250",
+      "236",
+      "-82",
+      "43",
+      "warm"
+    ]
+  },
+  {
+    "id": 282,
+    "kind": "valid-random",
+    "args": [
+      "47",
+      "172",
+      "146",
+      "-61",
+      "49",
+      "neutral"
+    ]
+  },
+  {
+    "id": 283,
+    "kind": "valid-random",
+    "args": [
+      "150",
+      "231",
+      "221",
+      "-7",
+      "1",
+      "neutral"
+    ]
+  },
+  {
+    "id": 284,
+    "kind": "valid-random",
+    "args": [
+      "254",
+      "162",
+      "231",
+      "-26",
+      "24",
+      "mono"
+    ]
+  },
+  {
+    "id": 285,
+    "kind": "valid-random",
+    "args": [
+      "4",
+      "109",
+      "63",
+      "-89",
+      "114",
+      "warm"
+    ]
+  },
+  {
+    "id": 286,
+    "kind": "valid-random",
+    "args": [
+      "111",
+      "22",
+      "102",
+      "17",
+      "138",
+      "mono"
+    ]
+  },
+  {
+    "id": 287,
+    "kind": "valid-random",
+    "args": [
+      "188",
+      "22",
+      "21",
+      "-72",
+      "25",
+      "mono"
+    ]
+  },
+  {
+    "id": 288,
+    "kind": "valid-random",
+    "args": [
+      "59",
+      "252",
+      "255",
+      "20",
+      "43",
+      "neutral"
+    ]
+  },
+  {
+    "id": 289,
+    "kind": "valid-random",
+    "args": [
+      "175",
+      "60",
+      "66",
+      "-18",
+      "46",
+      "neutral"
+    ]
+  },
+  {
+    "id": 290,
+    "kind": "valid-random",
+    "args": [
+      "123",
+      "56",
+      "183",
+      "60",
+      "26",
+      "warm"
+    ]
+  },
+  {
+    "id": 291,
+    "kind": "valid-random",
+    "args": [
+      "0",
+      "207",
+      "118",
+      "83",
+      "193",
+      "warm"
+    ]
+  },
+  {
+    "id": 292,
+    "kind": "valid-random",
+    "args": [
+      "122",
+      "8",
+      "78",
+      "33",
+      "46",
+      "mono"
+    ]
+  },
+  {
+    "id": 293,
+    "kind": "valid-random",
+    "args": [
+      "103",
+      "114",
+      "129",
+      "-95",
+      "84",
+      "mono"
+    ]
+  },
+  {
+    "id": 294,
+    "kind": "valid-random",
+    "args": [
+      "28",
+      "8",
+      "177",
+      "-36",
+      "10",
+      "mono"
+    ]
+  },
+  {
+    "id": 295,
+    "kind": "valid-random",
+    "args": [
+      "202",
+      "52",
+      "180",
+      "81",
+      "144",
+      "warm"
+    ]
+  },
+  {
+    "id": 296,
+    "kind": "valid-random",
+    "args": [
+      "199",
+      "138",
+      "71",
+      "94",
+      "161",
+      "mono"
+    ]
+  },
+  {
+    "id": 297,
+    "kind": "valid-random",
+    "args": [
+      "160",
+      "120",
+      "225",
+      "29",
+      "14",
+      "mono"
+    ]
+  },
+  {
+    "id": 298,
+    "kind": "valid-random",
+    "args": [
+      "124",
+      "74",
+      "154",
+      "-19",
+      "25",
+      "mono"
+    ]
+  },
+  {
+    "id": 299,
+    "kind": "valid-random",
+    "args": [
+      "196",
+      "205",
+      "211",
+      "-70",
+      "138",
+      "neutral"
+    ]
+  },
+  {
+    "id": 300,
+    "kind": "valid-random",
+    "args": [
+      "201",
+      "63",
+      "213",
+      "-100",
+      "107",
+      "warm"
+    ]
+  },
+  {
+    "id": 301,
+    "kind": "help",
+    "args": [
+      "--help"
+    ]
+  },
+  {
+    "id": 302,
+    "kind": "parser-edge",
+    "args": [
+      "-1",
+      "128",
+      "200",
+      "10",
+      "125",
+      "warm"
+    ]
+  },
+  {
+    "id": 303,
+    "kind": "parser-edge",
+    "args": [
+      "256",
+      "128",
+      "200",
+      "10",
+      "125",
+      "warm"
+    ]
+  },
+  {
+    "id": 304,
+    "kind": "parser-edge",
+    "args": [
+      "1.0",
+      "128",
+      "200",
+      "10",
+      "125",
+      "warm"
+    ]
+  },
+  {
+    "id": 305,
+    "kind": "parser-edge",
+    "args": [
+      "0x10",
+      "128",
+      "200",
+      "10",
+      "125",
+      "warm"
+    ]
+  },
+  {
+    "id": 306,
+    "kind": "parser-edge",
+    "args": [
+      "2147483648",
+      "128",
+      "200",
+      "10",
+      "125",
+      "warm"
+    ]
+  },
+  {
+    "id": 307,
+    "kind": "parser-edge",
+    "args": [
+      "",
+      "128",
+      "200",
+      "10",
+      "125",
+      "warm"
+    ]
+  },
+  {
+    "id": 308,
+    "kind": "parser-edge",
+    "args": [
+      "abc",
+      "128",
+      "200",
+      "10",
+      "125",
+      "warm"
+    ]
+  },
+  {
+    "id": 309,
+    "kind": "parser-edge",
+    "args": [
+      "１２",
+      "128",
+      "200",
+      "10",
+      "125",
+      "warm"
+    ]
+  },
+  {
+    "id": 310,
+    "kind": "parser-edge",
+    "args": [
+      "١٢",
+      "128",
+      "200",
+      "10",
+      "125",
+      "warm"
+    ]
+  },
+  {
+    "id": 311,
+    "kind": "parser-edge",
+    "args": [
+      " 64 ",
+      "128",
+      "200",
+      "10",
+      "125",
+      "warm"
+    ]
+  },
+  {
+    "id": 312,
+    "kind": "parser-edge",
+    "args": [
+      "+64",
+      "128",
+      "200",
+      "10",
+      "125",
+      "warm"
+    ]
+  },
+  {
+    "id": 313,
+    "kind": "parser-edge",
+    "args": [
+      "00064",
+      "128",
+      "200",
+      "10",
+      "125",
+      "warm"
+    ]
+  },
+  {
+    "id": 314,
+    "kind": "parser-edge",
+    "args": [
+      "64\t",
+      "128",
+      "200",
+      "10",
+      "125",
+      "warm"
+    ]
+  },
+  {
+    "id": 315,
+    "kind": "parser-edge",
+    "args": [
+      " 64",
+      "128",
+      "200",
+      "10",
+      "125",
+      "warm"
+    ]
+  },
+  {
+    "id": 316,
+    "kind": "parser-edge",
+    "args": [
+      "64",
+      "-1",
+      "200",
+      "10",
+      "125",
+      "warm"
+    ]
+  },
+  {
+    "id": 317,
+    "kind": "parser-edge",
+    "args": [
+      "64",
+      "256",
+      "200",
+      "10",
+      "125",
+      "warm"
+    ]
+  },
+  {
+    "id": 318,
+    "kind": "parser-edge",
+    "args": [
+      "64",
+      "128",
+      "-1",
+      "10",
+      "125",
+      "warm"
+    ]
+  },
+  {
+    "id": 319,
+    "kind": "parser-edge",
+    "args": [
+      "64",
+      "128",
+      "256",
+      "10",
+      "125",
+      "warm"
+    ]
+  },
+  {
+    "id": 320,
+    "kind": "parser-edge",
+    "args": [
+      "64",
+      "128",
+      "200",
+      "-101",
+      "125",
+      "warm"
+    ]
+  },
+  {
+    "id": 321,
+    "kind": "parser-edge",
+    "args": [
+      "64",
+      "128",
+      "200",
+      "101",
+      "125",
+      "warm"
+    ]
+  },
+  {
+    "id": 322,
+    "kind": "parser-edge",
+    "args": [
+      "64",
+      "128",
+      "200",
+      "-0",
+      "125",
+      "warm"
+    ]
+  },
+  {
+    "id": 323,
+    "kind": "parser-edge",
+    "args": [
+      "64",
+      "128",
+      "200",
+      "+0",
+      "125",
+      "warm"
+    ]
+  },
+  {
+    "id": 324,
+    "kind": "parser-edge",
+    "args": [
+      "64",
+      "128",
+      "200",
+      "10",
+      "-1",
+      "warm"
+    ]
+  },
+  {
+    "id": 325,
+    "kind": "parser-edge",
+    "args": [
+      "64",
+      "128",
+      "200",
+      "10",
+      "201",
+      "warm"
+    ]
+  },
+  {
+    "id": 326,
+    "kind": "parser-edge",
+    "args": [
+      "64",
+      "128",
+      "200",
+      "10",
+      "125",
+      "Warm"
+    ]
+  },
+  {
+    "id": 327,
+    "kind": "parser-edge",
+    "args": [
+      "64",
+      "128",
+      "200",
+      "10",
+      "125",
+      "MONO"
+    ]
+  },
+  {
+    "id": 328,
+    "kind": "parser-edge",
+    "args": [
+      "64",
+      "128",
+      "200",
+      "10",
+      "125",
+      ""
+    ]
+  },
+  {
+    "id": 329,
+    "kind": "parser-edge",
+    "args": [
+      "64",
+      "128",
+      "200",
+      "10",
+      "125",
+      "unknown"
+    ]
+  },
+  {
+    "id": 330,
+    "kind": "parser-edge",
+    "args": [
+      "64",
+      "128",
+      "200",
+      "10",
+      "125",
+      "warm "
+    ]
+  },
+  {
+    "id": 331,
+    "kind": "arity-edge",
+    "args": []
+  },
+  {
+    "id": 332,
+    "kind": "arity-edge",
+    "args": [
+      "64",
+      "128",
+      "200",
+      "10",
+      "125"
+    ]
+  },
+  {
+    "id": 333,
+    "kind": "arity-edge",
+    "args": [
+      "64",
+      "128",
+      "200",
+      "10",
+      "125",
+      "warm",
+      "extra"
+    ]
+  },
+  {
+    "id": 334,
+    "kind": "arity-edge",
+    "args": [
+      "--HELP"
+    ]
+  },
+  {
+    "id": 335,
+    "kind": "arity-edge",
+    "args": [
+      "--help",
+      "extra"
+    ]
+  }
+]

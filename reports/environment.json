@@ -1,0 +1,21 @@
+{
+  "repository": "https://github.com/morluto/rea",
+  "commit": "500e32399a3bc827e17fb4adaa97db3bc0df29b5",
+  "version": "6.4.0",
+  "node": "v24.13.1",
+  "npm": "11.8.0",
+  "os": "Windows-11-10.0.26200-SP0",
+  "setup": [
+    "git clone --depth 1 https://github.com/morluto/rea.git third_party/rea",
+    "npm.cmd ci --ignore-scripts --no-audit --no-fund",
+    "npm.cmd run build:cached"
+  ],
+  "setup_notes": [
+    "Dependency lifecycle scripts skipped; explicit source build succeeded.",
+    "No global REA install or persistent MCP registration.",
+    "No native provider used.",
+    "First legacy csc invocation rejected /deterministic; removed unsupported switch before successful build.",
+    "Compiler timestamps/MVID may change across rebuilds; both measured passes use identical frozen binary."
+  ],
+  "source_dirty": ""
+}

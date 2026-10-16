@@ -1,0 +1,21 @@
+third_party/
+artifacts/
+logs/*
+!logs/evaluation01/
+logs/evaluation01/*
+!logs/evaluation01/corpus.json
+__pycache__/
+tools/obfuscator/bin/
+tools/obfuscator/obj/
+*.obj
+*.pdb
+*.ilk
+node_modules/
+.claude/
+
+# local-only, not published: all reports and findings are English in the
+# repo; non-English originals/drafts stay on disk but untracked
+reports/*.draft.md
+reconstruction/pass01/findings.draft.md
+reconstruction/pass02/findings.draft.md
+reconstruction/pass07/findings.draft.md

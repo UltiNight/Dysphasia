@@ -1,0 +1,8 @@
+{
+  "command": "C:\\Users\\LUNES\\Downloads\\ida-pro-mcp-1.4.0\\ida-pro-mcp-1.4.0\\.venv\\Scripts\\python.exe",
+  "args": [
+    "C:\\Users\\LUNES\\Downloads\\ida-pro-mcp-1.4.0\\ida-pro-mcp-1.4.0\\src\\ida_pro_mcp\\server.py",
+    "--ida-rpc",
+    "http://127.0.0.1:13337"
+  ]
+}
